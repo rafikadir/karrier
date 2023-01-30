@@ -39,12 +39,6 @@ function useWindowSize() {
 	return size;
 }
 
-// function ShowWindowDimensions(props) {
-// 	const [width, height] = useWindowSize();
-
-// }
-
-// import img1 from "../../assets/KarrierAssets/InstituteActivities/CertificateCeremony.jpg";
 function srcset(image, size, rows = 1, cols = 1) {
 	return {
 		src: `${image}?w=${size * cols}&h=${size * rows}&fit=crop&auto=format`,
@@ -77,19 +71,7 @@ function Gallery() {
 							alt={item.title}
 							loading="lazy"
 						/>
-						{/* <ImageListItemBar
-							className={styles.listItemBar}
-							title={item.title}
-							subtitle={item.author}
-							actionIcon={
-								<IconButton
-									sx={{ color: "rgba(255, 255, 255, 0.54)" }}
-									aria-label={`info about ${item.title}`}
-								>
-									<InfoIcon />
-								</IconButton>
-							}
-						/> */}
+
 					</ImageListItem>
 				))}
 			</ImageList>
@@ -109,10 +91,6 @@ const itemData = [
 		title: "Tomato basil",
 		cols: 2,
 	},
-	// {
-	// 	img: "https://res.cloudinary.com/def4bqkxv/image/upload/v1643440478/karrier/KarrierAssets/InstituteActivities/CHITKARA_dflzbx.jpg",
-	// 	title: "Camera",
-	// },
 
 	{
 		img: wide9,
@@ -154,11 +132,6 @@ const itemData = [
 		img: wide6,
 		title: "Tomato basil",
 	},
-
-	// {
-	// 	img: square3,
-	// 	title: "Tomato basil",
-	// },
 
 	{
 		img: wide3,

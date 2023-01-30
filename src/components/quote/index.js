@@ -6,17 +6,12 @@ function Quote(props) {
 		<div className={styles.quote}>
 			<hr style={{ margin: "60px auto", opacity: ".5" }} />
 			<div className={`${styles.testimonialQuote} ${styles.group}`}>
-				{/* <img src="http://placehold.it/120x120" /> */}
 				<div className={styles.quoteContainer}>
 					<blockquote>
 						<p>{props.quote}</p>
 					</blockquote>
 					<cite>
-						{/* <span>Kristi Bruno</span>
-						<br /> */}
-						~ Carnegie Institute of Technology
-						{/* <br />
-						occupation */}
+						~ Carnegie Institute of Technology				
 					</cite>
 				</div>
 			</div>

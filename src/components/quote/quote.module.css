@@ -7,7 +7,6 @@
 }
 
 .testimonialQuote blockquote {
-	/* Negate theme styles */
 	border: 0;
 	margin: 0;
 	padding: 0;
@@ -76,17 +75,8 @@
 	position: relative;
 }
 
-.testimonialQuote .quoteContainer {
-	/* padding-left: 160px; */
-}
-
 .testimonialQuote .quoteContainer p {
 	text-align: center;
-}
-
-.testimonialQuote.right .quoteContainer {
-	/* padding-left: 0;
-	padding-right: 160px; */
 }
 
 .testimonialQuote.right img {
@@ -95,7 +85,6 @@
 }
 
 .testimonialQuote cite {
-	/* text-align: right; */
 	font-size: 1em;
 	text-align: center;
 	padding: 10px;

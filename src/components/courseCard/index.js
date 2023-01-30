@@ -1,14 +1,11 @@
 import React from "react";
 import styles from "./courseCard.module.css";
-// import Workplace from "../../assets/workplace.jpg";
-// import "animate.css";
 import PropTypes from "prop-types";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import { positions } from "@mui/system";
-import Button from "@mui/material/Button";
+
 
 function TabPanel(props) {
 	const { children, value, index, ...other } = props;
@@ -63,16 +60,11 @@ function CourseCard(props) {
 								textColor="secondary"
 								indicatorColor="transparent"
 								value={value}
-								// // justified={true}
 								onChange={handleChange}
-								// // indicatorColor="secondary"
-								// // textColor="inherit"
 								variant="fullWidth"
-								// aria-label="basic tabs example"
 							>
 								<Tab wrapped label="Details" {...a11yProps(0)} />
 								<Tab wrapped label="Curriculum" {...a11yProps(1)} />
-								{/* <Tab label="Item Three" {...a11yProps(2)} /> */}
 							</Tabs>
 						</Box>
 
@@ -126,9 +118,6 @@ function CourseCard(props) {
 					<input type="submit" value="Free Demo Class" className={`${styles.form_button} ${styles.button}`} />
 				</a>
 			</div>
-			{/* <Button class={styles.btn} variant="contained" href="#contained-buttons">
-				Link
-			</Button> */}
 		</div>
 	);
 }

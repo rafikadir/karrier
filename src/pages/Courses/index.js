@@ -306,11 +306,6 @@ function Courses() {
 						cost="Rs 20,400 + GST"
 					/>
 				</div>
-				{/* </div> */}
-				{/* <div className={styles.sectionName}>
-					<p>REVIEWS</p>
-					<div className={styles.underline}></div>
-				</div> */}
 				<section className={styles.reviews}>
 					<Heading main="Reviews" subtext="what do our students say about us" />
 					<Reviews data={data} />

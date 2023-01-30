@@ -32,10 +32,7 @@ function About() {
 			</p>
 			<h2>Values</h2>
 			<p>Respect for all individual at each level Integrity-a way of life in karrier</p>
-			{/* <section className={styles.faqs}>
-				<Heading main="FAQs" subtext="Common questions that people have" />
-				<FAQ />
-			</section> */}
+
 		</section>
 	);
 }

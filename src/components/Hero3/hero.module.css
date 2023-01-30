@@ -1,17 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-/* .hero {
-	margin-top: -12vh;
-	height: 105vh;
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	padding: 0;
-	margin: 0;
-} */
+
 body {
 	margin: 0px;
-	/* background-color: #1e242a; */
 }
 
 .main {
@@ -33,7 +24,6 @@ body {
 	left: 40%;
 	animation: anim 2s forwards, anim2 3s forwards 3s;
 	background-size: cover;
-	/* background-color: aquamarine !important; */
 }
 
 .box1:after {
@@ -45,7 +35,6 @@ body {
 	left: 0px;
 	z-index: -1;
 	background-size: cover;
-	/* background-color: #6c3; */
 }
 @keyframes anim {
 	from {
@@ -71,12 +60,10 @@ body {
 	height: auto;
 	box-sizing: border-box;
 	font-family: "poppins";
-	/* color: white; */
 	position: absolute;
 	top: 32vh;
 	left: 8vw;
 	overflow: hidden;
-	/* background-color: #09f; */
 }
 
 .name {
@@ -87,7 +74,6 @@ body {
 	color: white !important;
 }
 .tagline {
-	/* line-height: 130px; */
 	font-size: 2em;
 	font-weight: 500;
 	margin: 0;
@@ -149,7 +135,6 @@ body {
 }
 @media (max-width: 500px) {
 	.box1 {
-		/* left: 13.5vw; */
 		left: calc(50% - 175px);
 	}
 	@keyframes anim2 {
@@ -240,23 +225,6 @@ body {
 	animation-duration: 5s;
 }
 
-/* .content {
-	background-color:rgba(255,255,255,.8);
-	border-radius:.25em;
-	box-shadow:0 0 .25em rgba(0,0,0,.25);
-	box-sizing:border-box;
-	left:50%;
-	padding:10vmin;
-	position:fixed;
-	text-align:center;
-	top:50%;
-	transform:translate(-50%, -50%);
-  }
-  
-  h1 {
-	font-family:monospace;
-  } */
-
 @keyframes slide {
 	0% {
 		transform: translateX(-25%);
@@ -267,8 +235,6 @@ body {
 }
 /* ROTATING SQUARES */
 .rotatingSquaresBg {
-	/* background-color: #0040c1;
-	position: relative; */
 	height: 100vh;
 	overflow: hidden;
 	font-family: "Montserrat", sans-serif;
@@ -370,8 +336,6 @@ body {
 }
 
 .area {
-	/* background: #4e54c8;
-	background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8); */
 	width: 100%;
 	height: 100vh;
 }

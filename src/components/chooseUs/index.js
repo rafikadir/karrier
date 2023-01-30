@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./chooseUs.module.css";
-import { ReactComponent as Illustration1 } from "../../assets/illustrations/Illustration1.svg";
 import Picture from "../../assets/images/Pictures/Anubhav-Saxena-Best-Pharma-Sales-Trainer-Sales-Consultant-in-India.png";
 
 function ChooseUs() {

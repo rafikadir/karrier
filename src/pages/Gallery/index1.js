@@ -1,7 +1,5 @@
 import React from "react";
-// import styles from "./courses.module.css";
 import "./gallery1.css";
-// import CoursesSlider from "../../components/coursesSlider";
 import img1 from "../../assets/KarrierAssets/InstituteActivities/CertificateCeremony.jpg";
 
 function Gallery() {

@@ -28,11 +28,6 @@ function Reviews(props) {
 	let id = 0;
 	return (
 		<section className="review section">
-			{/* <div className="title">
-				<h2>
-					<span>/</span>reviews
-				</h2>
-			</div> */}
 			<div className="section-center">
 				{people.map((person, personIndex) => {
 					const { name, designation, review, src } = person;

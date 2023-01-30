@@ -4,8 +4,7 @@ import Panel from "./panel";
 import Carousel, { Dots } from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
 
-// import "./reviews.css";
-// import styles from "./reviews.styled.jsx";
+
 import { StyledCarousel } from "./reviews.styled.jsx";
 
 function Reviews(props) {
@@ -24,9 +23,6 @@ function Reviews(props) {
 				infinite
 				slidesPerPage={1}
 			>
-				{/* {props.data.map(elem => (
-					<img src={elem.src} />
-				))} */}
 				{props.data.map(elem => (
 					<Panel name={elem.name} designation={elem.designation} review={elem.review} src={elem.src} />
 				))}

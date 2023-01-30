@@ -40,16 +40,6 @@ function Team() {
 					fb="https://www.facebook.com/rashmi.saxena.92754"
 					linkedIn="https://www.linkedin.com/in/rashmi-saxena-30876bb4/"
 				/>
-
-				{/* <div className={styles.bottomCard}>
-					<TeamCard />
-				</div> */}
-				{/* <div className={styles.bottomCard1}>
-					<TeamCard />
-				</div> */}
-				{/* <div className={styles.bottomCard2}>
-					<TeamCard />
-				</div> */}
 			</div>
 		</section>
 	);

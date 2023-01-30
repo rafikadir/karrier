@@ -31,8 +31,6 @@
 .secondHalf {
 	font-size: 7em !important;
 	font-weight: bold;
-	/* -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent; */
 	background-image: url("../../assets/workplace.jpg");
 	background-size: 100%;
 	background-clip: text;
@@ -61,24 +59,3 @@
 		font-size: 5em !important;
 	}
 }
-/* 
-.firstHalf {
-	width: 175px;
-	white-space: nowrap;
-	overflow: hidden;
-	background-color: aqua;
-}
-
-.firstHalf {
-	animation: animated-text 1s steps(30, end) 0.5s 1 normal forwards;
-}
-
-
-@keyframes animated-text {
-	from {
-		height: 0;
-	}
-	to {
-		height: 130px;
-	}
-} */

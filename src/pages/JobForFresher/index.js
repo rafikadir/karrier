@@ -78,7 +78,7 @@ function Home() {
 								src: JourneySoFar,
 								title: "Anubhav Saxena - Best Pharma Sales Trainer & Sales Consultant in India",
 								alt: "Anubhav Saxena - Best Pharma Sales Trainer & Sales Consultant in India",
-								text: "faced the same problems you are facing when I was a fresh graduate 27 years back. Hello! I am Anubhav Saxena and I am the founder & director of Karrier Training & Evolution Institute and our mission is to help young graduates facing similar problems to find a career in top pharma companies.",
+								text: "I faced the same problems you are facing when I was a fresh graduate 27 years back. Hello! I am Anubhav Saxena and I am the founder & director of Karrier Training & Evolution Institute and our mission is to help young graduates facing similar problems to find a career in top pharma companies.",
 							},
 						]}
 					/>

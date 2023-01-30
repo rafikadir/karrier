@@ -1,6 +1,5 @@
 import React from "react";
 import ImageList from "@mui/material/ImageList";
-// import ImageListItem from "@mui/material/ImageListItem";
 import ImageListItem, { imageListItemClasses } from "@mui/material/ImageListItem";
 import styles from "./gallery.module.css";
 import img1 from "../../assets/KarrierAssets/InstituteActivities/CertificateCeremony.jpg";
@@ -8,7 +7,6 @@ import { ThemeProvider } from "@material-ui/styles";
 import { createTheme } from "@material-ui/core/styles";
 import Box from "@mui/material/Box";
 import ImageListItemBar from "@mui/material/ImageListItemBar";
-// import ListSubheader from '@mui/material/ListSubheader';
 import IconButton from "@mui/material/IconButton";
 import InfoIcon from "@mui/icons-material/Info";
 
@@ -40,12 +38,6 @@ function Gallery() {
 						tablet: "repeat(3, 1fr)",
 						desktop: "repeat(4, 1fr)",
 					},
-					// standard variant from here:
-					// https://github.com/mui-org/material-ui/blob/3e679ac9e368aeb170d564d206d59913ceca7062/packages/mui-material/src/ImageListItem/ImageListItem.js#L42-L43
-					//   [`& .${imageListItemClasses.root}`]: {
-					//     display: "flex",
-					//     flexDirection: "column",
-					//   }
 				}}
 			>
 				{itemData.map(item => (

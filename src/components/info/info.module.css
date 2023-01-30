@@ -1,6 +1,5 @@
 .onlineContainer {
 	margin-bottom: 25px;
-	/* padding-top: -30vh; */
 	padding-bottom: 50px;
 	width: 100%;
 }
@@ -108,6 +107,5 @@
 	}
 	.onlineSVG {
 		width: 75vw;
-		/* margin: 1rem; */
 	}
 }

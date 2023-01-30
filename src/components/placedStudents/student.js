@@ -11,8 +11,6 @@ function Student(props) {
 						alt="UI Designer"
 					/>
 					<div className={styles.memberInfo}>
-						{/* <h3>John Doe</h3>
-						<p>UI Designer</p> */}
 					</div>
 				</div>
 			</div>

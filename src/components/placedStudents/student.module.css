@@ -19,7 +19,6 @@
 	position: absolute;
 	top: 50%;
 	transform: rotate(45deg) translate(-12px, 15px);
-	/* left: 5; */
 	right: 15;
 	z-index: 2;
 	text-align: center;
@@ -28,23 +27,19 @@
 .memberInfo h3,
 .memberInfo p {
 	margin: 0;
-	/* color: #fff; */
 	position: relative;
 	opacity: 0;
-	/* visibility: hidden; */
 }
 
 .memberInfo h3 {
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 400;
-	/* top: -100px; */
 }
 
 .memberInfo p {
 	font-weight: 300;
 	font-size: 12px;
-	/* bottom: -150px; */
 }
 
 .memberDetails > div:after {

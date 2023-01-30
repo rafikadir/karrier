@@ -20,15 +20,7 @@ const Panel = props => {
 
 				<div>
 					<p>{props.review}</p>
-					{/* {props.rating? <Rating style={{ paddingLeft: 15 }} name="read-only" value={props.rating} readOnly />:" ";} */}
 				</div>
-				{/* <Box
-					sx={{
-						"& > legend": { mt: 2 },
-					}}
-				>
-					
-				</Box> */}
 			</div>
 		</div>
 	);

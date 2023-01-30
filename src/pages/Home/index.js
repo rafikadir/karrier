@@ -15,7 +15,6 @@ import ChooseUs from "../../components/chooseUs";
 import Info from "../../components/info";
 import FAQ from "../../components/faq";
 import { Helmet } from "react-helmet";
-// import Heading from "../../components/heading";
 
 function Home() {
 	return (

@@ -57,15 +57,11 @@
 	width: 100%;
 	box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 	padding-bottom: 30px;
-	/* box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px; */
 }
 
 /* /////////////////////////////////////////// */
 
 .slideDown {
-	/* width: 20%;
-	min-width: 180px; */
-	/* margin-bottom: 16px; */
 	position: relative;
 }
 .slideDown figure {
@@ -90,28 +86,20 @@
 	margin: 0;
 	/* background-color: white; */
 }
-.slideDown .front img {
-	/* width: 100%; */
-}
+
 .slideDown .back {
 	height: 100%;
 	position: absolute;
 	top: 0;
-	/* left: 50%;
-	transform: translateX(-50%); */
 	padding: 0;
-	/* text-align: left; */
 	background-color: #556aa57e;
 	color: white;
 	font-weight: 400;
 }
-.slideDown .back > * {
-	/* padding: 0 16px; */
-}
+
 .card h5 {
 	padding-top: 16px;
 	font-size: 22px;
-	/* line-height: 2.2vw; */
 }
 .slideDown .back .title {
 	padding-bottom: 0.8vw;
@@ -182,9 +170,6 @@ a:hover {
 	color: #fff;
 }
 
-ul.socialIcons {
-	/* margin-top: 10px; */
-}
 .socialIcons li {
 	vertical-align: top;
 	display: inline;
@@ -214,7 +199,6 @@ ul.socialIcons {
 	-moz-transition: 0.5s;
 	-webkit-transition: 0.5s;
 	transition: 0.5s;
-	/* background-color: #322f30; */
 }
 .twitter:hover {
 	background-color: #00aced;
@@ -226,7 +210,6 @@ ul.socialIcons {
 	-moz-transition: 0.5s;
 	-webkit-transition: 0.5s;
 	transition: 0.5s;
-	/* background-color: #322f30; */
 }
 .rss:hover {
 	background-color: #eb8231;
@@ -238,7 +221,6 @@ ul.socialIcons {
 	-moz-transition: 0.5s;
 	-webkit-transition: 0.5s;
 	transition: 0.5s;
-	/* background-color: #322f30; */
 }
 .youtube:hover {
 	background-color: #e64a41;
@@ -250,7 +232,6 @@ ul.socialIcons {
 	-moz-transition: 0.5s;
 	-webkit-transition: 0.5s;
 	transition: 0.5s;
-	/* background-color: #322f30; */
 }
 .linkedin:hover {
 	background-color: #0073a4;
@@ -262,7 +243,6 @@ ul.socialIcons {
 	-moz-transition: 0.5s;
 	-webkit-transition: 0.5s;
 	transition: 0.5s;
-	/* background-color: #322f30; */
 }
 .instagram:hover {
 	background-color: #8a3ab9;
@@ -274,7 +254,6 @@ ul.socialIcons {
 	-moz-transition: 0.5s;
 	-webkit-transition: 0.5s;
 	transition: 0.5s;
-	/* background-color: #322f30; */
 }
 .github:hover {
 	background-color: #5a32a3;

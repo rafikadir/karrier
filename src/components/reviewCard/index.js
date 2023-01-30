@@ -14,16 +14,6 @@ export default function ReviewCard(props) {
 					<p>{props.review}</p>
 				</div>
 			</div>
-			{/* <div className={styles.reflectionCard}>
-				<div className={`${styles.card} ${styles.reflection}`}>
-					
-					<div className={`${styles.textContainer} ${styles.textContainerReflection}`}>
-						
-						<p>{props.review}</p>
-					</div>
-				</div>
-				<div className={`${styles.card} ${styles.cover}`}></div>
-			</div> */}
 		</div>
 	);
 }
