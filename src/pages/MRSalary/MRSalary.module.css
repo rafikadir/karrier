@@ -1,6 +1,5 @@
 .Introduction {
 	background-color: white;
-	margin-bottom: 380px;
 	background-color: white;
 }
 .onlineContainerRow {
@@ -30,6 +29,21 @@
 	text-align: left;
 	justify-content: center;
 	font-size: 1.5em;
+}
+.links{
+	border-radius: 5px;
+    padding: 5px 20px;
+    background: #f70b42;
+    color: #FFFFFF;
+    text-decoration: none;
+	margin-bottom: 5px;
+    display: inline-block;
+}
+.mt {
+	margin-top: 20px;
+}
+.mb {
+	margin-bottom: 20px;
 }
 .onlineClassInfoNoPicture {
 	padding: 40px;

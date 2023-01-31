@@ -10,21 +10,21 @@ function StudentsReviews() {
 			<img
 				src={Prajwal}
 				style={{
-					border: "3px dashed #c471ed",
+					border: "2px solid #c471ed",
 				}}
 				className={styles.review}
 			/>
 			<img
 				src={Subhasmita}
 				style={{
-					border: "3px dashed #12c2e9",
+					border: "2px solid #12c2e9",
 				}}
 				className={styles.review}
 			/>
 			<img
 				src={Sachin}
 				style={{
-					border: "3px dashed #f64f59",
+					border: "2px solid #f64f59",
 				}}
 				className={styles.review}
 			/>

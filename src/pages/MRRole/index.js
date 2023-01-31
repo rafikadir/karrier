@@ -38,7 +38,7 @@ function MRRole() {
 						"@context": "https://schema.org/",
 						"@type": "WebSite",
 						name: "MR job salary",
-						url: "http://karrier.com/role-of-medical-representative",
+						url: "https://karrier.com/role-of-medical-representative",
 						potentialAction: {
 						"@type": "SearchAction",
 						target: "{search_term_string}",
@@ -67,8 +67,8 @@ function MRRole() {
 										Do you know that a medical sales representative is considered as a white-collar job?
 										<br />
 										You must be thinking about:
-										<br />
-										<ul>
+										<br/>
+										<ul className={styles.mt}>
 											<li>What is a medical representative?</li> <li>What is MR?</li> <li> What is MR job?</li>
 											<li>What are the duties of a medical representative?</li>
 											<li>What are the medical representative role and responsibilities?</li>

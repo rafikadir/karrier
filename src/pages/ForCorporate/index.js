@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./ForCorporate.module.css";
-// import "./courses.css";
 import Heading from "../../components/heading";
 import onlineClasses from "../../assets/onlineClasses.jpg";
 import long from "../../assets/nabigeta/long.jpg";
@@ -125,7 +124,6 @@ function ForCorporate() {
 				<div className={styles.offerings}>
 					<Heading
 						main="NABIGETA MAGICAL OFFERINGS"
-						// subtext=""
 					/>
 
 					<div className={styles.offeringsContainer}>

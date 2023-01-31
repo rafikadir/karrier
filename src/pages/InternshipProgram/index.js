@@ -69,7 +69,7 @@ function InternshipProgram() {
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<meta name="language" content="English"/>
 
-				<meta property="og:url" content="http://karrier.in"/>
+				<meta property="og:url" content="https://karrier.in"/>
 				<meta property="og:type" content="website"/>
 				<meta property="og:title" content="Graduate >> INTERNSHIP >> High Chances to get hired"/>
 				<meta property="og:description" content="CAMPUS to CORPORATE - An internship in pharma sales for graduates. Ideal for Degree college/university placement cell. Industry Tie-ups ⭐⭐⭐⭐⭐"/>
@@ -77,7 +77,7 @@ function InternshipProgram() {
 
 				<meta name="twitter:card" content="summary_large_image"/>
 				<meta property="twitter:domain" content="karrier.in"/>
-				<meta property="twitter:url" content="http://karrier.in"/>
+				<meta property="twitter:url" content="https://karrier.in"/>
 				<meta name="twitter:title" content="Graduate >> INTERNSHIP >> High Chances to get hired"/>
 				<meta name="twitter:description" content="CAMPUS to CORPORATE - An internship in pharma sales for graduates. Ideal for Degree college/university placement cell. Industry Tie-ups ⭐⭐⭐⭐⭐"/>
 				<meta name="twitter:image" content=""/>  
@@ -87,7 +87,7 @@ function InternshipProgram() {
 						"@context": "https://schema.org/",
 						"@type": "WebSite",
 						name: "campus to corporate",
-						url: "http://karrier.com/campus-to-corporate",
+						url: "https://karrier.com/campus-to-corporate",
 						potentialAction: {
 						"@type": "SearchAction",
 						target: "{search_term_string}",
@@ -120,7 +120,7 @@ function InternshipProgram() {
 								team, learn from industry veterans, and create valuable relationships with top professionals.
 								As a part of the program, you will be paired with a mentor who will guide you throughout your
 								entire experience.
-								<br />
+								<span className={styles.mb}></span>
 								This program is ideal for degree colleges/university final year graduates (any stream) willing
 								to start a career in pharma sales. This is a unique opportunity for students to earn a stipend
 								during a field internship within their state for a period of 3 months. There is a very high
@@ -142,7 +142,7 @@ function InternshipProgram() {
 								veteran team, learn from industry veterans, and create valuable relationships with top
 								professionals. As a part of the program, you will be paired with a mentor who will guide you
 								throughout your entire experience.
-								<br />
+								<span className={styles.mb}></span>
 								This program is ideal for degree colleges/university final year graduates (any stream) willing
 								to start a career in pharma sales. This is a unique opportunity for students to earn a stipend
 								during a field internship within their state for a period of 3 months. There is a very high

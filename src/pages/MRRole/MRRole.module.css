@@ -36,6 +36,9 @@
 	justify-content: center;
 	font-size: 1.5em;
 }
+.mt {
+	margin-top: 20px;
+}
 .onlineClassInfoNoPicture {
 	padding: 40px;
 	width: 90vw;

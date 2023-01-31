@@ -8,6 +8,10 @@
 	padding: 0 2vh;
 	padding-bottom: 8vh;
 }
+.mb {
+	margin-bottom: 10px;
+	display: inherit;
+}
 @media only screen and (max-width: 500px) {
 	.courseCardContainer {
 		padding: 0 0vh;
@@ -19,7 +23,6 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 380px;
 	background-color: white;
 	box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
@@ -27,7 +30,7 @@
 .reviews {
 	display: flex;
 	width: 100%;
-	min-height: 90vh;
+	min-height: 70vh;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
@@ -124,7 +127,7 @@
 
 .internshipModel {
 	height: 100%;
-	width: 80%;
 	box-sizing: border-box;
 	margin: 2rem;
+	max-width: 60%;
 }

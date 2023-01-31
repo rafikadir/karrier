@@ -6,6 +6,7 @@ import img2 from "../../assets/images/Pictures/salary/salary-of-medical-represen
 import Info from "../../components/info";
 import { Helmet } from "react-helmet";
 import { JsonLd } from "react-schemaorg";
+import './MRSalary.module.css';
 
 function MRSalary() {
 	return (
@@ -87,25 +88,27 @@ function MRSalary() {
 										The average salary of a medical representative in India is 2.80 lacs/ annum. Metro city reps
 										get more packages compared to other cities. For your reference, we are enclosing city-wise
 										salaries for a MR:
-										<ul>
-											<li>• Delhi Rs 18,389 per month</li>
-											<li>• Kolkata Rs. 21,739 per month</li>
-											<li>• Bengaluru Rs 21,397 per month</li>
-											<li>• Chandigarh Rs 18,169 per month</li>
-											<li>• Mumbai Rs 19,206 per month</li>
-											<li>• Guwahati Rs 18,941 per month</li>
-											<li>• Cuttack Rs 17,652 per month</li>
-											<li>• Lucknow Rs 17,305 per month</li>
-											<li>• Patna Rs 14,494 per month</li>
-											<li>• Pune Rs 19,463 per month</li>
-											<li>• Ahmedabad Rs 18,836 per month</li>
+										<ul className={styles.mt}>
+											<li>• Delhi <b>Rs 18,389</b> per month</li>
+											<li>• Kolkata <b>Rs. 21,739</b> per month</li>
+											<li>• Bengaluru <b>Rs 21,397</b> per month</li>
+											<li>• Chandigarh <b>Rs 18,169</b> per month</li>
+											<li>• Mumbai <b>Rs 19,206</b> per month</li>
+											<li>• Guwahati <b>Rs 18,941</b> per month</li>
+											<li>• Cuttack <b>Rs 17,652</b> per month</li>
+											<li>• Lucknow <b>Rs 17,305</b> per month</li>
+											<li>• Patna <b>Rs 14,494</b> per month</li>
+											<li>• Pune <b>Rs 19,463</b> per month</li>
+											<li>• Ahmedabad <b>Rs 18,836</b> per month</li>
 										</ul>
-										Huge Earning Potential: If you are a performer then besides salaries & allowances, you will
-										earn monthly incentives on the basis of achievement of the target. Companies like Mankind,
-										Sun Pharma, Cipla, and Micro Labs are known for their lucrative incentive policies, a
-										performer can earn incentives more than their salaries month after month. If you’re able to
-										achieve your annual target then you can win more prizes like star awards, national trips &
-										even foreign/international trips.
+										<p className={styles.mt}>
+											Huge Earning Potential: If you are a performer then besides salaries & allowances, you will
+											earn monthly incentives on the basis of achievement of the target. Companies like Mankind,
+											Sun Pharma, Cipla, and Micro Labs are known for their lucrative incentive policies, a
+											performer can earn incentives more than their salaries month after month. If you’re able to
+											achieve your annual target then you can win more prizes like star awards, national trips &
+											even foreign/international trips.
+										</p>
 									</div>
 								),
 							},
@@ -118,21 +121,21 @@ function MRSalary() {
 										may be an ideal choice for you as here you can grow faster than in other professions. If you
 										are looking for a job in a pharma company then you can join our Facebook group named 
 										<b>“medical representative job for fresher”</b> by this{" "}
-										<a href="https://www.facebook.com/groups/162301004521948">link</a> You will get all updates
+										<a className={styles.links} href="https://www.facebook.com/groups/162301004521948">link</a> You will get all updates
 										regarding the pharma vacancy for fresher & MR jobs for fresher in this Facebook group. You
 										can also search medical representative vacancies in various job portals like:
 										<ul>
 											<li>
-												<a href="https://in.indeed.com">Indeed</a>
+												<a className={styles.links} href="https://in.indeed.com">Indeed</a>
 											</li>
 											<li>
-												<a href="https://www.naukri.com">Naukri</a>
+												<a className={styles.links} href="https://www.naukri.com">Naukri</a>
 											</li>
 											<li>
-												<a href="https://www.linkedin.com">LinkedIn</a>
+												<a className={styles.links} href="https://www.linkedin.com">LinkedIn</a>
 											</li>
 											<li>
-												<a href="http://pharmatree.in ">PharmaTree</a>
+												<a className={styles.links} href="http://pharmatree.in ">PharmaTree</a>
 											</li>
 										</ul>
 										The sales job is one of the toughest jobs. Generally in any sales job, you have to make new
@@ -195,7 +198,7 @@ function MRSalary() {
 										Although experienced candidates are in high demand, fresher may also enter this high-paying
 										industry after getting training for medical representatives by enhancing their medical
 										representative skills:
-										<ul>
+										<ul className={styles.mt}>
 											<li>• Be willing to work hard.</li>
 											<li>• Good communication skills.</li>
 											<li>• Positive & learning attitude.</li>

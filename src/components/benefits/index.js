@@ -33,7 +33,7 @@ function Benefits() {
 				<div className={`${styles.panel} ${styles.pricingTable}`}>
 					<div className={styles.pricingPlan}>
 						<img
-							src="https://s22.postimg.cc/8mv5gn7w1/paper-plane.png"
+							src="https://i.postimg.cc/c1mCsxZw/graduated.png"
 							alt=""
 							className={styles.pricingImg}
 						/>
@@ -46,7 +46,7 @@ function Benefits() {
 					</div>
 
 					<div className={styles.pricingPlan}>
-						<img src="https://s28.postimg.cc/ju5bnc3x9/plane.png" alt="" className={styles.pricingImg} />
+						<img src="https://i.postimg.cc/nchzryc5/presentation.png" alt="" className={styles.pricingImg} />
 						<h2 className={styles.pricingHeader}>College</h2>
 						<ul className={styles.pricingFeatures}>
 							{college.map(str => {
@@ -56,7 +56,7 @@ function Benefits() {
 					</div>
 
 					<div className={styles.pricingPlan}>
-						<img src="https://s21.postimg.cc/tpm0cge4n/space-ship.png" alt="" className={styles.pricingImg} />
+						<img src="https://i.postimg.cc/brzvQM0Z/office-building.png" alt="" className={styles.pricingImg} />
 						<h2 className={styles.pricingHeader}>Corporate</h2>
 						<ul className={styles.pricingFeatures}>
 							{corporate.map(str => {
