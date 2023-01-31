@@ -2,27 +2,29 @@ import React, { useState, useEffect } from "react";
 import { NavLink, Link } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../../assets/logo/black.png";
+import { IoIosCall, IoMdMail } from "react-icons/io";
+
 
 const navbarContent = [
 	"Jobs for Fresher",
-	// "About",
 	"MR Role",
 	"Salary",
 	"Campus to Corporate",
 	"Courses",
 	"Corporate",
 	"Gallery",
+	"Faq",
 	"Contact Us",
 ];
 const path = [
 	"jobs-for-fresher",
-	// "About",
 	"role-of-medical-representative",
 	"salary-of-medical-representative",
 	"campus-to-corporate",
 	"job-oriented-course-after-graduation",
 	"corporate-training",
 	"Gallery",
+	"faqs",
 	"Contact-Us",
 ];
 
@@ -53,12 +55,15 @@ function Navbar() {
 			<div className="fixed">
 				<div className="contactBar">
 					<a className="contact" href="tel:918948600666">
-						Phone Number 1: +91-8948600666
+						<IoIosCall/>
+						Phone Number : +91-8948600666
 					</a>
 					<a className="contact" href="tel:918303990366">
-						Phone Number 2: +91-8303990366
+						<IoIosCall/>
+						Phone Number : +91-8303990366
 					</a>
 					<a className="contact" href="mailto:info@karrier.in?subject=website query">
+						<IoMdMail/>
 						Email:info@karrier.in
 					</a>
 				</div>

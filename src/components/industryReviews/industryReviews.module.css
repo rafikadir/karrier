@@ -1,14 +1,15 @@
 .container {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	padding-top: 8vh;
+	justify-content: center;
+	align-items: baseline;
 	padding-bottom: 0vh;
 }
 
 .container .side {
-	margin-top: 4vh;
+	margin-top: 1vh;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 .container .middle {
 	margin-top: -4vh;

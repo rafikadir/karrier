@@ -99,10 +99,6 @@ function Home() {
 					<Team />
 					<Quote quote="85% of your financial success is due to your personality and ability to communicate, negotiate, and lead. Shockingly, only 15% is due to technical knowledge." />
 				</section>
-				<section className={styles.faqs}>
-					<Heading main="FAQs" subtext="Common questions that people have" />
-					<FAQ />
-				</section>
 			</section>
 		</>
 	);

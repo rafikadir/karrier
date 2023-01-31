@@ -1,17 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-/* .hero {
-	margin-top: -12vh;
-	height: 105vh;
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	padding: 0;
-	margin: 0;
-} */
+
 body {
 	margin: 0px;
-	/* background-color: #1e242a; */
 }
 
 .main {
@@ -25,7 +16,7 @@ body {
 	height: 116.5vh;
 }
 .box1 {
-	width: 430px;
+	width: 450px;
 	height: 500px;
 	background-image: url("../../assets/images/Pictures/fresher-jobs.png");
 	position: absolute;
@@ -33,7 +24,6 @@ body {
 	left: 40%;
 	animation: anim 2s forwards, anim2 3s forwards 3s;
 	background-size: cover;
-	/* background-color: aquamarine !important; */
 }
 
 .box1:after {
@@ -45,7 +35,6 @@ body {
 	left: 0px;
 	z-index: -1;
 	background-size: cover;
-	/* background-color: #6c3; */
 }
 @keyframes anim {
 	from {

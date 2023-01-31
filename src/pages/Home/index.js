@@ -13,7 +13,6 @@ import JobsForFresher from "../../assets/images/Pictures/Career Choice/jobs-for-
 import JourneySoFar from "../../assets/images/Pictures/Anubhav-Saxena-Best-Pharma-Sales-Trainer-Sales-Consultant-in-India.jpg";
 import ChooseUs from "../../components/chooseUs";
 import Info from "../../components/info";
-import FAQ from "../../components/faq";
 import { Helmet } from "react-helmet";
 
 function Home() {
@@ -100,10 +99,6 @@ function Home() {
 				<section>
 					<Team />
 					<Quote quote="85% of your financial success is due to your personality and ability to communicate, negotiate, and lead. Shockingly, only 15% is due to technical knowledge." />
-				</section>
-				<section className={styles.faqs}>
-					<Heading main="FAQs" subtext="Common questions that people have" />
-					<FAQ />
 				</section>
 			</section>
 

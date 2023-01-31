@@ -14,6 +14,7 @@ import MRSalary from "./pages/MRSalary/index";
 import JobForFresher from "./pages/JobForFresher/index";
 import "./App.css";
 import ViewportProvider from "./viewport";
+import Faq from "./pages/Faq/Faq";
 
 class App extends Component {
 	componentDidMount() {
@@ -34,7 +35,6 @@ class App extends Component {
 						<i class="fa fa-whatsapp whatsapp-icon"></i>
 					</a>
 					<div className="pages">
-						{/* <ScrollToTop> */}
 						<Routes>
 							<Route exact path="/" element={<Home />} />
 							<Route exact path="/jobs-for-fresher" element={<JobForFresher />} />
@@ -46,8 +46,8 @@ class App extends Component {
 							<Route path="/corporate-training" element={<ForCorporate />} />
 							<Route path="/campus-to-corporate" element={<InternshipProgram />} />
 							<Route path="/Contact-Us" element={<Contact />} />
+							<Route path="/faqs" element={<Faq />} />
 						</Routes>
-						{/* </ScrollToTop> */}
 					</div>
 					<Footer />
 				</Router>

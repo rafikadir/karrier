@@ -5,11 +5,8 @@ import Picture from "../../assets/images/Pictures/Anubhav-Saxena-Best-Pharma-Sal
 function ChooseUs() {
 	return (
 		<div className={`${styles.container} ${styles.onlineContainerRow} `}>
-			{/* <div className={styles.onlineContainerRow}> */}
-
 			<div className={styles.top}>
 				<h2 className={styles.chooseUsHeading}>Anubhav Saxena - the Best Sales Trainer</h2>
-				{/* <Picture className={styles.onlineSVG} /> */}
 				<img
 					src={Picture}
 					alt="Anubhav Saxena - Best Pharma Sales Trainer & Sales Consultant in India"
@@ -19,7 +16,6 @@ function ChooseUs() {
 			</div>
 
 			<div className={styles.onlineClassInfo}>
-				{/* <h3>Solution</h3> */}
 				<p>
 					I know the pain and agony of an average student very well. I also know the exact reason for such
 					failures and expectations of the organization and more importantly how to bridge this gap.
@@ -40,7 +36,6 @@ function ChooseUs() {
 					more have hired our students.
 				</p>
 			</div>
-			{/* </div> */}
 		</div>
 	);
 }

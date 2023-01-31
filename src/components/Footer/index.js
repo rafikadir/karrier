@@ -11,12 +11,6 @@ function Footer() {
 	return (
 		<div
 			className="footer"
-			style={{
-				backgroundImage: `url(${footerBackground})`,
-				backgroundPosition: "center",
-				backgroundSize: "cover",
-				backgroundRepeat: "no-repeat",
-			}}
 		>
 			<div className="footer_top">
 				<div className="logo">
@@ -24,9 +18,8 @@ function Footer() {
 				</div>
 
 				<div className="contact_sec_1 contact_mail">
-					{/* <p>Reviews</p> */}
-					<a href="tel:918948600666">Phone Number 1: +91-8948600666</a>
-					<a href="tel:918303990366">Phone Number 2: +91-8303990366</a>
+					<a href="tel:918948600666">Phone Number: +91-8948600666</a>
+					<a href="tel:918303990366">Phone Number: +91-8303990366</a>
 					<a href="mailto:info@karrier.in?subject=website query">Email:info@karrier.in</a>
 					<a href="https://g.page/r/CWJc8mX1oUKhEBE/review">Google Reviews</a>
 					<a href="https://g.page/KarrierMR?share">Google Profile</a>
