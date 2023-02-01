@@ -1,8 +1,4 @@
 import React from "react";
-import ImageList from "@mui/material/ImageList";
-import ImageListItem, { imageListItemClasses } from "@mui/material/ImageListItem";
-import styles from "./gallery.module.css";
-import img1 from "../../assets/KarrierAssets/InstituteActivities/CertificateCeremony.jpg";
 import { ThemeProvider } from "@material-ui/styles";
 import { createTheme } from "@material-ui/core/styles";
 import Box from "@mui/material/Box";

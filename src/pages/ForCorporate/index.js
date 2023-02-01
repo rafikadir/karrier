@@ -2,13 +2,57 @@ import React from "react";
 import styles from "./ForCorporate.module.css";
 import Heading from "../../components/heading";
 import onlineClasses from "../../assets/onlineClasses.jpg";
-import long from "../../assets/nabigeta/long.jpg";
+import long from "../../assets/images/Pictures/Corporate Training/corporate-training-program.jpg";
 import wide from "../../assets/nabigeta/wide.jpg";
 import nabgita from "../../assets/images/Pictures/Corporate Training/nabegita.png"
 import { Helmet } from "react-helmet";
 import { JsonLd } from "react-schemaorg";
+import Reviews from "../../components/reviews";
+import RamgopalBangad from "../../assets/images/Pictures/Internship/corporate/RamgopalBangad.png";
+import ArvindNigam from "../../assets/images/Pictures/Internship/corporate/ArvindNigam.png";
+import RajendraKhati from "../../assets/images/Pictures/Internship/corporate/RajendraKhati.png";
+import RajeshTewari from "../../assets/images/Pictures/Internship/corporate/RajeshTewari.png";
+import RajivPathak from "../../assets/images/Pictures/Internship/corporate/RajivPathak.png";
 
 function ForCorporate() {
+	let data = [
+		{
+			name: "RAMGOPAL BANGAD",
+			designation: "DIRECTOR EVIDENS LIFESCIENCES",
+			review:
+				"“Good start by KARRIER. The training and teaching module is well created and executed. The candidate's comes out with enhanced skills, knowledge and stronger base in pharma sales. Great going. Well done”",
+			src: RamgopalBangad,
+		},
+		{
+			name: "ARVIND NIGARM",
+			designation: "DIRECTOR KAPKIND PHARMA PVT LTD.",
+			review:
+				"“Yes, I believe with the help of this institute candidate can get help to improve themselves in a better way. Thank you Anubhav Sir, Please keep it up as always.” ",
+			src: ArvindNigam,
+		},
+		{
+			name: "RAJENDRA KHATI",
+			designation: "ABBOTT HEALTHCARE",
+			review:
+				"Great platform for new comers in our pharma industry I welcome and wish ALL THE BEST for career and prosperity as pharma sales is one of the admired and respectable profession where one reach to the topmost post of the organization thru his dedicated hard work and sincerity",
+			src: RajendraKhati,
+		},
+		{
+			name: "RAJIV PATHAK",
+			designation: "Zonal Sales Manager SUN PHARMA",
+			review:
+				"It's good to join Karrier Med Representative training Institute. As you get trained from a skilled trainer to grow in your career",
+			src: RajivPathak,
+		},
+		{
+			name: "RAJESH TEWARI",
+			designation: "Head L&D Ozone Pharmaceuticals",
+			review:
+				"“Mr. Anubhav is a passionate training and development professional. He has excellent networking and interpersonal skills. He has strong business acumen. My association with Anubhav has always been mutually satisfying, rewarding and purposeful.”",
+			src: RajeshTewari,
+		},
+	];
+
 	return (
 		<>
 		<Helmet>
@@ -57,7 +101,8 @@ function ForCorporate() {
 						backgroundSize: "cover",
 						backgroundRepeat: "no-repeat",
 					}}
-				></div>
+				>
+				</div>
 				<div className={styles.onlineClassInfo}>
 					<h2>Key Challenges in Pharma Industry Today</h2>
 					<p>• A mediocre strategy can look great provided the execution is par excellence as quoted by  Chang “without execution, strategy is useless”. Now the question arises how do we improve
@@ -169,6 +214,10 @@ function ForCorporate() {
 					</div>
 				</div>
 			</div>
+			<section className={styles.reviews}>
+				<Heading main="Corporate Reviews" subtext="What do pharma companies say about us" />
+				<Reviews data={data} />
+			</section>
 		</section>
 		</>
 	);

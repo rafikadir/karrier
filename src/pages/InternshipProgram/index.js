@@ -1,19 +1,11 @@
 import React from "react";
 import styles from "./InternshipProgram.module.css";
 // import "./courses.css";
-import CourseCard from "../../components/courseCard";
 import Heading from "../../components/heading";
-import Reviews from "../../components/reviews/index";
-import onlineClasses from "../../assets/onlineClasses.jpg";
 import Benefits from "../../components/benefits";
 import StudentsReviews from "../../components/studentsReviews";
 import Background from "../../assets/images/Pictures/Internship/students/background.jpg";
 import CollegeReviews from "../../components/collegeReviews";
-import RamgopalBangad from "../../assets/images/Pictures/Internship/corporate/RamgopalBangad.png";
-import ArvindNigam from "../../assets/images/Pictures/Internship/corporate/ArvindNigam.png";
-import RajendraKhati from "../../assets/images/Pictures/Internship/corporate/RajendraKhati.png";
-import RajeshTewari from "../../assets/images/Pictures/Internship/corporate/RajeshTewari.png";
-import RajivPathak from "../../assets/images/Pictures/Internship/corporate/RajivPathak.png";
 import img1 from "../../assets/images/Pictures/campus to corporate/internship-after-graduation.jpg";
 import img2 from "../../assets/images/Pictures/campus to corporate/Best Pharma Sales Trainer & Sales Consultant in India.jpg";
 import internshipModel from "../../assets/images/Pictures/campus to corporate/campus to corporate.jpg";
@@ -21,43 +13,7 @@ import Info from "../../components/info";
 import { Helmet } from "react-helmet";
 import { JsonLd } from "react-schemaorg";
 
-let data = [
-	{
-		name: "RAMGOPAL BANGAD",
-		designation: "DIRECTOR EVIDENS LIFESCIENCES",
-		review:
-			"“Good start by KARRIER. The training and teaching module is well created and executed. The candidate's comes out with enhanced skills, knowledge and stronger base in pharma sales. Great going. Well done”",
-		src: RamgopalBangad,
-	},
-	{
-		name: "ARVIND NIGARM",
-		designation: "DIRECTOR KAPKIND PHARMA PVT LTD.",
-		review:
-			"“Yes, I believe with the help of this institute candidate can get help to improve themselves in a better way. Thank you Anubhav Sir, Please keep it up as always.” ",
-		src: ArvindNigam,
-	},
-	{
-		name: "RAJENDRA KHATI",
-		designation: "ABBOTT HEALTHCARE",
-		review:
-			"Great platform for new comers in our pharma industry I welcome and wish ALL THE BEST for career and prosperity as pharma sales is one of the admired and respectable profession where one reach to the topmost post of the organization thru his dedicated hard work and sincerity",
-		src: RajendraKhati,
-	},
-	{
-		name: "RAJIV PATHAK",
-		designation: "Zonal Sales Manager SUN PHARMA",
-		review:
-			"It's good to join Karrier Med Representative training Institute. As you get trained from a skilled trainer to grow in your career",
-		src: RajivPathak,
-	},
-	{
-		name: "RAJESH TEWARI",
-		designation: "Head L&D Ozone Pharmaceuticals",
-		review:
-			"“Mr. Anubhav is a passionate training and development professional. He has excellent networking and interpersonal skills. He has strong business acumen. My association with Anubhav has always been mutually satisfying, rewarding and purposeful.”",
-		src: RajeshTewari,
-	},
-];
+
 function InternshipProgram() {
 	return (
 		<>
@@ -187,10 +143,6 @@ function InternshipProgram() {
 				<Heading main="College Reviews" subtext="What do colleges say about us" />
 				{/* <Reviews /> */}
 				<CollegeReviews />
-			</section>
-			<section className={styles.reviews}>
-				<Heading main="Corporate Reviews" subtext="What do pharma companies say about us" />
-				<Reviews data={data} />
 			</section>
 		</section>
 		</>

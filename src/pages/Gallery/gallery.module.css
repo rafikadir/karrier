@@ -1,8 +1,6 @@
 .gallerySection {
 	padding: 4vh 5vw;
 	background-color: rgb(226, 224, 224);
-	margin-bottom: 380px;
-	box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
 .image {
 	border-radius: 0.5rem;
