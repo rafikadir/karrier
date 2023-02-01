@@ -19,6 +19,16 @@ import tall1 from "../../assets/images/Pictures/gallery/tall1.jpg";
 import tall2 from "../../assets/images/Pictures/gallery/tall2.jpg";
 import tall3 from "../../assets/images/Pictures/gallery/tall3.jpg";
 import tall4 from "../../assets/images/Pictures/gallery/tall4.jpg";
+import one from "../../assets/images/Pictures/gallery/1.jpg";
+import two from "../../assets/images/Pictures/gallery/2.jpg";
+import three from "../../assets/images/Pictures/gallery/3.jpg";
+import four from "../../assets/images/Pictures/gallery/4.jpg";
+import five from "../../assets/images/Pictures/gallery/5.jpg";
+import six from "../../assets/images/Pictures/gallery/6.jpg";
+import seven from "../../assets/images/Pictures/gallery/7.jpg";
+import eight from "../../assets/images/Pictures/gallery/8.jpg";
+import nine from "../../assets/images/Pictures/gallery/9.jpg";
+import ten from "../../assets/images/Pictures/gallery/10.jpg";
 
 function useWindowSize() {
 	const [size, setSize] = useState([0, 0]);
@@ -176,8 +186,56 @@ const itemData = [
 		title: "Tomato basil",
 		cols: 2,
 	},
+	{
+		img: one,
+		title: "gallery",
+		cols: 2,
+	},
+	{
+		img: two,
+		title: "gallery",
+		cols: 2,
+	},
+	{
+		img: three,
+		title: "gallery",
+		cols: 2,
+	},
+	{
+		img: four,
+		title: "gallery",
+		cols: 2,
+	},
+	{
+		img: five,
+		title: "gallery",
+		cols: 2,
+	},
+	{
+		img: six,
+		title: "gallery",
+		cols: 2,
+	},
+	{
+		img: seven,
+		title: "gallery",
+		cols: 2,
+	},
+	{
+		img: eight,
+		title: "gallery",
+		cols: 2,
+	},
+	{
+		img: nine,
+		title: "gallery",
+		cols: 2,
+	},
+	{
+		img: ten,
+		title: "gallery",
+		cols: 2,
+	}
 ];
 
 export default Gallery;
-
-// https://cloudinary.com/console/c-117881a20a15f3616a9c9acd951efc/media_library/folders/bf5257b4fb89323189504cf87c9ba310bb

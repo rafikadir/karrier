@@ -19,17 +19,17 @@ function MRSalary() {
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<meta name="language" content="English"/>			
   				{/* The Open Graph protocol */}
-				<meta property="og:url" content="http://karrier.in"/>
+				<meta property="og:url" content="https://karrier.in/salary-of-medical-representative"/>
 				<meta property="og:type" content="website"/>
 				<meta property="og:title" content="MR job salary & career growth - best career option - KARRIER"/>
 				<meta property="og:description" content="The salary of a medical representative is 2.80 lacs/annum which is higher than a fresh engineer graduate's 1.70 lacs. Best Training Institute ⭐⭐⭐⭐⭐"/>
-				<meta property="og:image" content=""/>
+				<meta property="og:image" content="https://karrier.in/static/media/mr-job-salary.3e1aea62931b96b2540a.jpg"/>
 				<meta name="twitter:card" content="summary_large_image"/>
 				<meta property="twitter:domain" content="karrier.in"/>
-				<meta property="twitter:url" content="http://karrier.in"/>
+				<meta property="twitter:url" content="https://karrier.in/salary-of-medical-representative"/>
 				<meta name="twitter:title" content="MR job salary & career growth - best career option - KARRIER"/>
 				<meta name="twitter:description" content="The salary of a medical representative is 2.80 lacs/annum which is higher than a fresh engineer graduate's 1.70 lacs. Best Training Institute ⭐⭐⭐⭐⭐"/>
-				<meta name="twitter:image" content=""/>  
+				<meta name="twitter:image" content="https://karrier.in/static/media/mr-job-salary.3e1aea62931b96b2540a.jpg"/>  
 
 				<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/21841890.js"></script>
 

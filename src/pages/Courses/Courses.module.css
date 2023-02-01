@@ -19,9 +19,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 380px;
 	background-color: white;
-	box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
 
 .reviews {

@@ -63,18 +63,18 @@ function ForCorporate() {
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 			<meta name="language" content="English"/>
 
-			<meta property="og:url" content="http://karrier.in"/>
+			<meta property="og:url" content="https://karrier.in/campus-to-corporate"/>
 			<meta property="og:type" content="website"/>
 			<meta property="og:title" content="Corporate Sales Training Programs - Nabigeta Solutionist"/>
 			<meta property="og:description" content="Anubhav Saxena - Best Sales Trainer & Sales Consultant in India, Sales Trainer and Motivator who transforms businesses. Best Trainer ⭐⭐⭐⭐⭐"/>
-			<meta property="og:image" content=""/>
+			<meta property="og:image" content="https://karrier.in/static/media/internship-after-graduation.12d7a3a26f559ed44899.jpg"/>
 
 			<meta name="twitter:card" content="summary_large_image"/>
 			<meta property="twitter:domain" content="karrier.in"/>
-			<meta property="twitter:url" content="http://karrier.in"/>
+			<meta property="twitter:url" content="https://karrier.in/campus-to-corporate"/>
 			<meta name="twitter:title" content="Corporate Sales Training Programs - Nabigeta Solutionist"/>
 			<meta name="twitter:description" content="Anubhav Saxena - Best Sales Trainer & Sales Consultant in India, Sales Trainer and Motivator who transforms businesses. Best Trainer ⭐⭐⭐⭐⭐"/>
-			<meta name="twitter:image" content=""/>    
+			<meta name="twitter:image" content="https://karrier.in/static/media/internship-after-graduation.12d7a3a26f559ed44899.jpg"/>    
 
 			<JsonLd>
 			{{

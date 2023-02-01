@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./InternshipProgram.module.css";
-// import "./courses.css";
 import Heading from "../../components/heading";
 import Benefits from "../../components/benefits";
 import StudentsReviews from "../../components/studentsReviews";
@@ -25,18 +24,18 @@ function InternshipProgram() {
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<meta name="language" content="English"/>
 
-				<meta property="og:url" content="https://karrier.in"/>
+				<meta property="og:url" content="https://karrier.in/corporate-training"/>
 				<meta property="og:type" content="website"/>
 				<meta property="og:title" content="Graduate >> INTERNSHIP >> High Chances to get hired"/>
 				<meta property="og:description" content="CAMPUS to CORPORATE - An internship in pharma sales for graduates. Ideal for Degree college/university placement cell. Industry Tie-ups ⭐⭐⭐⭐⭐"/>
-				<meta property="og:image" content=""/>
+				<meta property="og:image" content="https://karrier.in/static/media/black.0492f01808c30c4fe252.png"/>
 
 				<meta name="twitter:card" content="summary_large_image"/>
 				<meta property="twitter:domain" content="karrier.in"/>
-				<meta property="twitter:url" content="https://karrier.in"/>
+				<meta property="twitter:url" content="https://karrier.in/corporate-training"/>
 				<meta name="twitter:title" content="Graduate >> INTERNSHIP >> High Chances to get hired"/>
 				<meta name="twitter:description" content="CAMPUS to CORPORATE - An internship in pharma sales for graduates. Ideal for Degree college/university placement cell. Industry Tie-ups ⭐⭐⭐⭐⭐"/>
-				<meta name="twitter:image" content=""/>  
+				<meta name="twitter:image" content="https://karrier.in/static/media/black.0492f01808c30c4fe252.png"/>  
 
 				<JsonLd>
 					{{

@@ -125,18 +125,18 @@ function Courses() {
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<meta name="language" content="English"/>
 
-				<meta property="og:url" content="http://karrier.in"/>
+				<meta property="og:url" content="https://karrier.in/job-oriented-course-after-graduation"/>
 				<meta property="og:type" content="website"/>
 				<meta property="og:title" content="90% of students get the job after doing a job oriented course."/>
 				<meta property="og:description" content="Pharma sales career- jobs with high salaries, incentives, and national and foreign trips. JOIN ONLINE JOB-oriented course and get a job in 60 days!⭐⭐⭐⭐⭐"/>
-				<meta property="og:image" content=""/>
+				<meta property="og:image" content="https://karrier.in/static/media/medical%20representative%20training.21f706b7a31ae5ee705f.jpg"/>
 
 				<meta name="twitter:card" content="summary_large_image"/>
 				<meta property="twitter:domain" content="karrier.in"/>
-				<meta property="twitter:url" content="http://karrier.in"/>
+				<meta property="twitter:url" content="https://karrier.in/job-oriented-course-after-graduation"/>
 				<meta name="twitter:title" content="90% of students get the job after doing a job oriented course."/>
 				<meta name="twitter:description" content="Pharma sales career- jobs with high salaries, incentives, and national and foreign trips. JOIN ONLINE JOB-oriented course and get a job in 60 days!⭐⭐⭐⭐⭐"/>
-				<meta name="twitter:image" content=""/>  
+				<meta name="twitter:image" content="https://karrier.in/static/media/medical%20representative%20training.21f706b7a31ae5ee705f.jpg"/>  
    
 				<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/21841890.js"></script>
 

@@ -19,17 +19,17 @@ function MRRole() {
 				<meta name="language" content="English"/>
 				{/* The Open Graph protocol */}
 				<meta name="description" content="Understand the role & responsibilities to become a successful medical representative. Learn by Experts- ⭐⭐⭐⭐⭐"/>
-				<meta property="og:url" content="http://karrier.in"/>
+				<meta property="og:url" content="https://karrier.in/role-of-medical-representative"/>
 				<meta property="og:type" content="website"/>
 				<meta property="og:title" content="Role of medical representative - Learn by the Experts - KARRIER"/>
 				<meta property="og:description" content="Understand the role & responsibilities to become a successful medical representative. Learn by Experts- ⭐⭐⭐⭐⭐"/>
-				<meta property="og:image" content=""/>
+				<meta property="og:image" content="https://karrier.in/static/media/the-role-of-medical-representative-2.d9605e1d5e51eeaea082.jpg"/>
 				<meta name="twitter:card" content="summary_large_image"/>
 				<meta property="twitter:domain" content="karrier.in"/>
-				<meta property="twitter:url" content="http://karrier.in"/>
+				<meta property="twitter:url" content="https://karrier.in/role-of-medical-representative"/>
 				<meta name="twitter:title" content="Role of medical representative - Learn by the Experts - KARRIER"/>
 				<meta name="twitter:description" content="Understand the role & responsibilities to become a successful medical representative. Learn by Experts- ⭐⭐⭐⭐⭐"/>
-				<meta name="twitter:image" content=""/>    
+				<meta name="twitter:image" content="https://karrier.in/static/media/the-role-of-medical-representative-2.d9605e1d5e51eeaea082.jpg"/>    
 
 				<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/21841890.js"></script> 
 
