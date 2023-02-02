@@ -6,6 +6,7 @@ import instagram from "../../assets/socialIcons/instagram.svg";
 import facebook from "../../assets/socialIcons/facebook.svg";
 import twitter from "../../assets/socialIcons/twitter.svg";
 import linkedIn from "../../assets/socialIcons/linkedIn.svg";
+import { IoIosCall, IoMdMail } from "react-icons/io";
 
 function Footer() {
 	return (
@@ -18,11 +19,11 @@ function Footer() {
 				</div>
 
 				<div className="contact_sec_1 contact_mail">
-					<a href="tel:918948600666">Phone Number: +91-8948600666</a>
-					<a href="tel:918303990366">Phone Number: +91-8303990366</a>
-					<a href="mailto:info@karrier.in?subject=website query">Email:info@karrier.in</a>
-					<a href="https://g.page/r/CWJc8mX1oUKhEBE/review">Google Reviews</a>
 					<a href="https://g.page/KarrierMR?share">Google Profile</a>
+					<a href="https://g.page/r/CWJc8mX1oUKhEBE/review">Google Reviews</a>
+					<a href="tel:918948600666"><IoIosCall/> +91-8948600666</a>
+					<a href="tel:918303990366"><IoIosCall/> +91-8303990366</a>
+					<a href="mailto:info@karrier.in?subject=website query"><IoMdMail/> Email:info@karrier.in</a>
 				</div>
 				<div className="contact_sec_2">
 					<p>Follow us on</p>
@@ -53,7 +54,7 @@ function Footer() {
 				</div>
 			</div>
 			<p className="footer_divider"></p>
-			<div className="footer_bot">&copy;2022 Karrier</div>
+			<div className="footer_bot">Copyright 2023 Karrier Training & Evolution Institute</div>
 		</div>
 	);
 }

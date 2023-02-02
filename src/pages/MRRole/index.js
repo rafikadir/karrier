@@ -17,6 +17,7 @@ function MRRole() {
 				<meta name="robots" content="index,follow"/>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<meta name="language" content="English"/>
+				<link rel="canonical" href="https://karrier.in/role-of-medical-representative" />
 				{/* The Open Graph protocol */}
 				<meta name="description" content="Understand the role & responsibilities to become a successful medical representative. Learn by Experts- ⭐⭐⭐⭐⭐"/>
 				<meta property="og:url" content="https://karrier.in/role-of-medical-representative"/>
@@ -32,20 +33,19 @@ function MRRole() {
 				<meta name="twitter:image" content="https://karrier.in/static/media/the-role-of-medical-representative-2.d9605e1d5e51eeaea082.jpg"/>    
 
 				<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/21841890.js"></script> 
-
-				 <JsonLd>
-					{{
+				<script type="application/ld+json">
+				{JSON.stringify({
 						"@context": "https://schema.org/",
 						"@type": "WebSite",
-						name: "MR job salary",
-						url: "https://karrier.com/role-of-medical-representative",
-						potentialAction: {
+						"name": "MR job salary",
+						"url": "https://karrier.com/role-of-medical-representative",
+						"potentialAction": {
 						"@type": "SearchAction",
-						target: "{search_term_string}",
+						"target": "{search_term_string}",
 						"query-input": "required name=search_term_string",
 						},
-					}}
-				</JsonLd>   
+					})}
+				</script>   
 			</Helmet>	
 			
 			<section className={styles.Introduction}>

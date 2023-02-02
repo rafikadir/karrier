@@ -62,6 +62,7 @@ function ForCorporate() {
 			<meta name="robots" content="index,follow"/>
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 			<meta name="language" content="English"/>
+			<link rel="canonical" href="https://karrier.in/campus-to-corporate" />
 
 			<meta property="og:url" content="https://karrier.in/campus-to-corporate"/>
 			<meta property="og:type" content="website"/>
@@ -76,17 +77,19 @@ function ForCorporate() {
 			<meta name="twitter:description" content="Anubhav Saxena - Best Sales Trainer & Sales Consultant in India, Sales Trainer and Motivator who transforms businesses. Best Trainer ⭐⭐⭐⭐⭐"/>
 			<meta name="twitter:image" content="https://karrier.in/static/media/internship-after-graduation.12d7a3a26f559ed44899.jpg"/>    
 
-			<JsonLd>
-			{{
-				"@context": "https://schema.org",
-				"@type": "VideoObject",
-				name: "Corporate training program",
-				description: "Corporate training program",
-				thumbnailUrl: [""],
-				uploadDate: "",
-				contentUrl: "https://youtu.be/NSPZpn49jz0",
-			}}
-			</JsonLd>
+			<script type="application/ld+json">
+				{JSON.stringify({
+					"@context": "http://schema.org",
+					"@type": "VideoObject",
+					"name": " Corporate training program",
+					"description": "Corporate training program",
+					"thumbnailUrl": "https://i.ytimg.com/vi/NSPZpn49jz0/default.jpg",
+					"uploadDate": "2023-01-19T09:15:13Z",
+					"duration": "PT1M2S",
+					"embedUrl": "https://www.youtube.com/embed/NSPZpn49jz0",
+					"interactionCount": "0"						
+				})}
+			</script>
 		</Helmet>
 
 		<section className={styles.ForCorporate}>

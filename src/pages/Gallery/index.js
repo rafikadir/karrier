@@ -1,6 +1,5 @@
-// import React from "react";
 import ImageList from "@mui/material/ImageList";
-import ImageListItem, { imageListItemClasses } from "@mui/material/ImageListItem";
+import ImageListItem from "@mui/material/ImageListItem";
 import styles from "./gallery.module.css";
 import React, { useLayoutEffect, useState } from "react";
 import wide1 from "../../assets/images/Pictures/gallery/wide1.jpg";

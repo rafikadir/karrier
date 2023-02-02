@@ -31,6 +31,7 @@
 		"react-material-ui-carousel": "^3.1.0",
 		"react-router-dom": "^6.0.2",
 		"react-schemaorg": "^2.0.0",
+		"react-snap": "^1.23.0",
 		"schema-dts": "^1.1.0",
 		"styled-components": "^5.3.3",
 		"validator": "^13.7.0",

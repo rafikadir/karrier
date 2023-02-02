@@ -1,13 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 .outerContainer {
-	/* background-color: #384b4e; */
 	margin: 0;
 	padding: 50px;
 	background-color: grey;
-	margin-bottom: 380px;
-	box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
-	/* color: white; */
 }
 button {
 	overflow: visible;

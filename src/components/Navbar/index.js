@@ -11,7 +11,7 @@ const navbarContent = [
 	"Salary",
 	"Campus to Corporate",
 	"Courses",
-	"Corporate",
+	"Corporate Training",
 	"Gallery",
 	"Faq",
 	"Contact Us",
@@ -56,11 +56,11 @@ function Navbar() {
 				<div className="contactBar">
 					<a className="contact" href="tel:918948600666">
 						<IoIosCall/>
-						Phone Number : +91-8948600666
+						+91-8948600666
 					</a>
 					<a className="contact" href="tel:918303990366">
 						<IoIosCall/>
-						Phone Number : +91-8303990366
+						+91-8303990366
 					</a>
 					<a className="contact" href="mailto:info@karrier.in?subject=website query">
 						<IoMdMail/>

@@ -26,18 +26,19 @@ function Home() {
 				<meta name="robots" content="index,follow"/>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<meta name="language" content="English"/>
+				<link rel="canonical" href="https://karrier.in" />
 				{/* The Open Graph protocol */}
-				<meta property="og:url" content="http://karrier.in"/>
+				<meta property="og:url" content="https://karrier.in"/>
 				<meta property="og:type" content="website"/>
 				<meta property="og:title" content="Pharma jobs for graduates with high salary- Karrier"/>
 				<meta property="og:description" content="Fresh graduate & searching job? then MR job can be a good choice. Salary of a medical representative is 2.80 lacs/annum- higher than a fresh engineer"/>
-				<meta property="og:image" content="http://karrier.in/static/media/black.0492f018.png"/>
+				<meta property="og:image" content="https://karrier.in/static/media/black.0492f018.png"/>
 				<meta name="twitter:card" content="summary_large_image"/>
 				<meta property="twitter:domain" content="karrier.in"/>
-				<meta property="twitter:url" content="http://karrier.in"/>
+				<meta property="twitter:url" content="https://karrier.in"/>
 				<meta name="twitter:title" content="Pharma jobs for graduates with high salary- Karrier"/>
 				<meta name="twitter:description" content="Fresh graduate & searching job? then MR job can be a good choice. Salary of a medical representative is 2.80 lacs/annum- higher than a fresh engineer"/>
-				<meta name="twitter:image" content="http://karrier.in/static/media/black.0492f018.png"/> 
+				<meta name="twitter:image" content="https://karrier.in/static/media/black.0492f018.png"/> 
 			</Helmet>
 		
 			<section className={styles.page}>

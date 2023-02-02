@@ -124,6 +124,7 @@ function Courses() {
 				<meta name="robots" content="index,follow"/>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<meta name="language" content="English"/>
+				<link rel="canonical" href="https://karrier.in/job-oriented-course-after-graduation" />
 
 				<meta property="og:url" content="https://karrier.in/job-oriented-course-after-graduation"/>
 				<meta property="og:type" content="website"/>
@@ -140,26 +141,22 @@ function Courses() {
    
 				<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/21841890.js"></script>
 
-				<JsonLd>
-					{{
-						"@context": "https://schema.org",
+				<script type="application/ld+json">
+  					{JSON.stringify({
+						"@context": "http://schema.org",
 						"@type": "VideoObject",
-						name: "Corporate training program",
-						description: "Corporate training program",
-						thumbnailUrl: [""],
-						uploadDate: "",
-						contentUrl: "https://youtu.be/NSPZpn49jz0",
-						potentialAction: {
-						"@type": "SeekToAction",
-						target: "https://youtu.be/NSPZpn49jz0={seek_to_second_number}",
-						"startOffset-input": "required name=seek_to_second_number",
-						},
-					}}
-				</JsonLd>
+						"name": "Medical representative training institute",
+						"description": "Medical representative training institute",
+						"thumbnailUrl": "https://i.ytimg.com/vi/p565Q2-OBb4/default.jpg",
+						"uploadDate": "2021-05-03T04:04:32Z",
+						"duration": "PT3M18S",
+						"embedUrl": "https://www.youtube.com/embed/p565Q2-OBb4",
+						"interactionCount": "54"						
+					})}
+				</script>
 			</Helmet>
 
 			<section className={styles.ForStudents}>
-				{/* <div className={styles.cardHeading}> */}
 				<Heading main="Medical Representative Course" h1={true} subtext="Be Pharma Sales Ready from Day 1" />
 				<Info
 					data={[

@@ -25,6 +25,8 @@ function Home() {
 				<meta name="robots" content="index,follow"/>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<meta name="language" content="English"/>
+				<link rel="canonical" href="https://karrier.in" />
+
 				{/* The Open Graph protocol */}
 				<meta property="og:url" content="http://karrier.in"/>
 				<meta property="og:type" content="website"/>

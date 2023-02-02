@@ -17,7 +17,8 @@ function MRSalary() {
 				<meta name="keywords" content="salary of medical representative in india, salary of medical representative, mr job salary, career growth of medical representative, career as medical representative, why medical representative as a career, why you want to be a medical representative, what is the salary of a medical representative, medical representative job qualification, eligibility for medical representative"/>
 				<meta name="robots" content="index,follow"/>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-				<meta name="language" content="English"/>			
+				<meta name="language" content="English"/>		
+				<link rel="canonical" href="https://karrier.in/salary-of-medical-representative" />	
   				{/* The Open Graph protocol */}
 				<meta property="og:url" content="https://karrier.in/salary-of-medical-representative"/>
 				<meta property="og:type" content="website"/>
@@ -34,19 +35,19 @@ function MRSalary() {
 				<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/21841890.js"></script>
 
 				
-				<JsonLd>
-				{{
+				<script type="application/ld+json">
+				{JSON.stringify({
 					"@context": "https://schema.org/",
 					"@type": "WebSite",
-					name: "MR job salary",
-					url: "http://karrier.com/role-of-medical-representative",
-					potentialAction: {
+					"name": "MR job salary",
+					"url": "http://karrier.com/role-of-medical-representative",
+					"potentialAction": {
 					"@type": "SearchAction",
-					target: "{search_term_string}",
+					"target": "{search_term_string}",
 					"query-input": "required name=search_term_string",
 					},
-				}}
-			</JsonLd>        
+					})}
+				</script>
 			</Helmet>
 		
 			<section className={styles.Introduction}>

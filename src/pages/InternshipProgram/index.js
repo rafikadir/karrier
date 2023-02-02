@@ -23,6 +23,7 @@ function InternshipProgram() {
 				<meta name="robots" content="index,follow"/>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<meta name="language" content="English"/>
+				<link rel="canonical" href="https://karrier.in/corporate-training" />
 
 				<meta property="og:url" content="https://karrier.in/corporate-training"/>
 				<meta property="og:type" content="website"/>
@@ -111,7 +112,7 @@ function InternshipProgram() {
 			<img
 				src={internshipModel}
 				title="campus to corporate"
-				alt="Picture illustrating campus to corporate program"
+				alt="illustrating campus to corporate program"
 				className={styles.internshipModel}
 			/>
 			<Info
