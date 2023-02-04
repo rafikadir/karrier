@@ -3,10 +3,9 @@ import styles from "./ForCorporate.module.css";
 import Heading from "../../components/heading";
 import onlineClasses from "../../assets/onlineClasses.jpg";
 import long from "../../assets/images/Pictures/Corporate Training/corporate-training-program.jpg";
-import wide from "../../assets/nabigeta/wide.jpg";
+import wide from "../../assets/images/Corporate Training/corporate-training-1.jpeg";
 import nabgita from "../../assets/images/Pictures/Corporate Training/nabegita.png"
 import { Helmet } from "react-helmet";
-import { JsonLd } from "react-schemaorg";
 import Reviews from "../../components/reviews";
 import RamgopalBangad from "../../assets/images/Pictures/Internship/corporate/RamgopalBangad.png";
 import ArvindNigam from "../../assets/images/Pictures/Internship/corporate/ArvindNigam.png";

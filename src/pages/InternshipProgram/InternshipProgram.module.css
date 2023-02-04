@@ -17,7 +17,24 @@
 		padding: 0 0vh;
 	}
 }
+.collegeLogos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+.collegeLogo {
+	max-width: 220px;
+	margin-bottom: 20px;
+}
+
+.collegeComment {
+	border: 2px solid #dddddd;
+}
+
+.collegeComment img {
+	max-width: 100%;
+}
 .ForInstitutes {
 	display: flex;
 	flex-direction: column;

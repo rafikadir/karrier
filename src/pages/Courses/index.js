@@ -165,7 +165,6 @@ function Courses() {
 							src: img1,
 							title: "medical representative training",
 							alt: "person sitting with his laptop",
-							// heading: "I need a job!",
 							text: "Karrier training and evolution institute offers a range of medical representative training courses. These courses are short term job-oriented courses as per student need, suitability & budget. Karrier Institute was founded by industry veteran Anubhav Saxena in 2015. ",
 						},
 						{
@@ -292,7 +291,6 @@ function Courses() {
 							"Roleplay",
 							"Personality Development",
 							"Grooming",
-							// "Interview Preparation classes (5 hour workshop)",
 							"Power of dressing",
 							"Profiling",
 							"Killer first Impression",
@@ -307,6 +305,27 @@ function Courses() {
 					<Heading main="Reviews" subtext="what do our students say about us" />
 					<Reviews data={data} />
 					<img src={ReviewsImg} className={styles.reviewImg} alt="reviews" />
+
+					<div className="row px-5">
+						<div className="col-lg-4">
+							<iframe src="https://www.youtube.com/embed/7Ok6lgX_0kY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+						<div className="col-lg-4">
+							<iframe src="https://www.youtube.com/embed/JY6KVzxF6tA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+						<div className="col-lg-4">
+							<iframe src="https://www.youtube.com/embed/Dq1RzWHH-v0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+						<div className="col-lg-4">
+							<iframe src="https://www.youtube.com/embed/gt6wrgf3X1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+						<div className="col-lg-4">
+							<iframe src="https://www.youtube.com/embed/HXIC_39nwUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+						<div className="col-lg-4">
+							<iframe src="https://www.youtube.com/embed/j06MKZFqhxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+					</div>
 				</section>
 			</section>
 		</>

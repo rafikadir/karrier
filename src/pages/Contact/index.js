@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./contact.module.css";
 import ContactImg from "../../assets/contact.jpg";
-import HubspotContactForm from "../../components/HubspotContactForm/HubspotContactForm";
 
 function Contact() {
 	return (
@@ -52,10 +51,6 @@ function Contact() {
 					</div>
 				</form>
 			</div>
-
-			<HubspotContactForm  region="na1"
-                portalId="21841890"
-                formId='9763932b-6c20-4b60-b80b-409e78876768'/>
 			</div>
 	);
 }

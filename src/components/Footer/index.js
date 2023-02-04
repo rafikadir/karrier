@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import footerBackground from "../../assets/footerBackground2.jpg";
 import logo from "../../assets/logo/golden.png";
 import instagram from "../../assets/socialIcons/instagram.svg";
 import facebook from "../../assets/socialIcons/facebook.svg";

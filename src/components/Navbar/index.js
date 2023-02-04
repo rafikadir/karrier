@@ -90,9 +90,9 @@ function Navbar() {
 		return (
 			<div className="fixed">
 				<div className="contactBar">
-					<div className="contact">Phone Number 1: +91-8948600666</div>
-					<div className="contact">Phone Number 2: +91-8303990366</div>
-					<div className="contact">Email:info@karrier.in</div>
+					<div className="contact"><IoIosCall/> +91-8948600666</div>
+					<div className="contact"><IoIosCall/> +91-8303990366</div>
+					<div className="contact"><IoMdMail/>Email: info@karrier.in</div>
 				</div>
 				<div className="navbar">
 					<NavLink className="navbar_logo" to="/" style={{ width: "140px" }}>

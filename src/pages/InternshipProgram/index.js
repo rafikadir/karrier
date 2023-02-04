@@ -10,7 +10,16 @@ import img2 from "../../assets/images/Pictures/campus to corporate/Best Pharma S
 import internshipModel from "../../assets/images/Pictures/campus to corporate/campus to corporate.jpg";
 import Info from "../../components/info";
 import { Helmet } from "react-helmet";
-import { JsonLd } from "react-schemaorg";
+import CollegeOne from '../../assets/images/Campus to corporate/chitkara university.jpg';
+import CollegeTwo from '../../assets/images/Campus to corporate/dr-dy-patil-college-of-pharmacy-akurdi-pune-logo-removebg-preview-removebg-preview.jpg';
+import CollegeThree from '../../assets/images/Campus to corporate/goa college of pharmacy.jpg';
+import CollegeFour from '../../assets/images/Campus to corporate/HYGIA-removebg-preview.jpg';
+import CollegeFive from '../../assets/images/Campus to corporate//Lovely professional university.jpg';
+import CollegeSix from '../../assets/images/Campus to corporate/maharashtra_college-removebg-preview.jpg';
+import reviewOne from '../../assets/images/Campus to corporate/Sachin Waghmare.jpg';
+import reviewTwo from '../../assets/images/Campus to corporate/Subhasmita Baidya.jpg';
+import reviewThree from '../../assets/images/Campus to corporate/Prajwal.jpg';
+import reviewFour from '../../assets/images/Campus to corporate/Ratish Dixit review.jpg';
 
 
 function InternshipProgram() {
@@ -38,19 +47,21 @@ function InternshipProgram() {
 				<meta name="twitter:description" content="CAMPUS to CORPORATE - An internship in pharma sales for graduates. Ideal for Degree college/university placement cell. Industry Tie-ups ⭐⭐⭐⭐⭐"/>
 				<meta name="twitter:image" content="https://karrier.in/static/media/black.0492f01808c30c4fe252.png"/>  
 
-				<JsonLd>
-					{{
-						"@context": "https://schema.org/",
-						"@type": "WebSite",
-						name: "campus to corporate",
-						url: "https://karrier.com/campus-to-corporate",
-						potentialAction: {
-						"@type": "SearchAction",
-						target: "{search_term_string}",
-						"query-input": "required name=search_term_string",
-						},
-					}}
-				</JsonLd>       
+				<script type="application/ld+json">
+  					{JSON.stringify(
+						{
+							"@context": "https://schema.org/",
+							"@type": "WebSite",
+							"name": "campus to corporate",
+							"url": "https://karrier.com/campus-to-corporate",
+							"potentialAction": {
+							"@type": "SearchAction",
+							"target": "{search_term_string}",
+							"query-input": "required name=search_term_string",
+							},
+						} 
+					)} 
+				</script>   
 			</Helmet>
 		
 		<section className={styles.ForInstitutes}>
@@ -141,6 +152,49 @@ function InternshipProgram() {
 			</section>
 			<section className={styles.reviews}>
 				<Heading main="College Reviews" subtext="What do colleges say about us" />
+				<div className="row text-center">
+					<div className="col-lg-2 col-md-4">
+						<img className={styles.collegeLogo} src={CollegeOne} alt="college" />
+					</div>
+					<div className="col-lg-2 col-md-4">
+						<img className={styles.collegeLogo} src={CollegeTwo} alt="college" />
+					</div>
+					<div className="col-lg-2 col-md-4">
+						<img className={styles.collegeLogo} src={CollegeThree} alt="college" />
+					</div>
+					<div className="col-lg-2 col-md-4">
+						<img className={styles.collegeLogo} src={CollegeFour} alt="college" />
+					</div>
+					<div className="col-lg-2 col-md-4">
+						<img className={styles.collegeLogo} src={CollegeFive} alt="college" />
+					</div>
+					<div className="col-lg-2 col-md-4">
+						<img className={styles.collegeLogo} src={CollegeSix} alt="college" />
+					</div>
+				</div>
+
+				<div className="row">
+					<div className="col-lg-3 col-md-6">
+						<div className={styles.collegeComment}>
+							<img src={reviewOne} alt="college" />
+						</div>
+					</div>
+					<div className="col-lg-3 col-md-6">
+						<div className={styles.collegeComment}>
+							<img src={reviewTwo} alt="college" />
+						</div>
+					</div>
+					<div className="col-lg-3 col-md-6">
+						<div className={styles.collegeComment}>
+							<img src={reviewThree} alt="college" />
+						</div>
+					</div>
+					<div className="col-lg-3 col-md-6">
+						<div className={styles.collegeComment}>
+							<img src={reviewFour} alt="college" />
+						</div>
+					</div>
+				</div>
 				{/* <Reviews /> */}
 				<CollegeReviews />
 			</section>

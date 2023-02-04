@@ -53,6 +53,9 @@
 	.onlineContainerRow {
 		padding: 0;
 	}
+	.onlineSVG {
+		width: 100%;
+	}
 }
 .chooseUsHeading {
 	font-size: 2.5em;
