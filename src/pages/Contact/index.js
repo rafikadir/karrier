@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./contact.module.css";
 import ContactImg from "../../assets/contact.jpg";
+import HubspotContactForm from "../../components/HubspotContactForm/HubspotContactForm";
 
 function Contact() {
 	return (
@@ -14,7 +15,7 @@ function Contact() {
 			}}
 		>
 			<div className={styles.container}>
-				<h1>Contact Us</h1>
+				{/* <h1>Contact Us</h1>
 				<div className={styles.icon_wrapper}></div>
 				<form action="#" method="post" className={styles.contact_form}>
 					<div className={styles.name}>
@@ -49,7 +50,8 @@ function Contact() {
 					<div className={styles.submit}>
 						<input type="submit" value="Send Message" className={`${styles.form_button} ${styles.button}`} />
 					</div>
-				</form>
+				</form> */}
+				<HubspotContactForm/>
 			</div>
 			</div>
 	);
