@@ -16,7 +16,7 @@ body {
 	height: 116.5vh;
 }
 .box1 {
-	width: 450px;
+	width: 500px;
 	height: 500px;
 	background-image: url("../../assets/images/Pictures/fresher-jobs.png");
 	position: absolute;
@@ -29,7 +29,7 @@ body {
 .box1:after {
 	content: "";
 	position: absolute;
-	width: 430px;
+	width: 500px;
 	height: 500px;
 	background-image: url("./fresher-jobs.png");
 	left: 0px;

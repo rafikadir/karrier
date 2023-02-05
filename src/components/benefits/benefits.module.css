@@ -54,6 +54,7 @@
 		0px 8px 20px 7px rgba(0, 0, 0, 0.02);
 	display: flex;
 	flex-direction: column;
+	background: #e2ebf9;
 }
 
 @media (min-width: 900px) {
@@ -98,7 +99,8 @@
 	color: #888;
 	font-weight: 600;
 	letter-spacing: 1px;
-	margin-top: 30px;
+	margin-top: 20px;
+	font-family: monospace;
 }
 
 .pricingFeatures {
@@ -114,7 +116,8 @@
 	line-height: 1.5;
 	padding: 15px 0;
 	font-family: sans-serif;
-    color: #787878;
+    color: #433f3f;
+    text-align: left;
 }
 
 .pricingFeaturesItem:last-child {

@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./ForCorporate.module.css";
 import Heading from "../../components/heading";
-import onlineClasses from "../../assets/onlineClasses.jpg";
-import long from "../../assets/images/Pictures/Corporate Training/corporate-training-program.jpg";
+import onlineClasses from "../../assets/images/Pictures/Corporate Training/corporate-training-program.jpg";
+import long from "../../assets/images/Corporate Training/corporate-training-program.jpeg";
 import wide from "../../assets/images/Corporate Training/corporate-training-1.jpeg";
 import nabgita from "../../assets/images/Pictures/Corporate Training/nabegita.png"
 import { Helmet } from "react-helmet";
@@ -12,6 +12,33 @@ import ArvindNigam from "../../assets/images/Pictures/Internship/corporate/Arvin
 import RajendraKhati from "../../assets/images/Pictures/Internship/corporate/RajendraKhati.png";
 import RajeshTewari from "../../assets/images/Pictures/Internship/corporate/RajeshTewari.png";
 import RajivPathak from "../../assets/images/Pictures/Internship/corporate/RajivPathak.png";
+import one from '../../assets/images/Corporate Training/1.jpg';
+import two from '../../assets/images/Corporate Training/2.png';
+import three from '../../assets/images/Corporate Training/3.jpg';
+import four from '../../assets/images/Corporate Training/4.jpg';
+import five from '../../assets/images/Corporate Training/5.png';
+import six from '../../assets/images/Corporate Training/6.png';
+import seven from '../../assets/images/Corporate Training/7.jpg';
+import eight from '../../assets/images/Corporate Training/8.png';
+import nine from '../../assets/images/Corporate Training/9.jpg';
+import ten from '../../assets/images/Corporate Training/10.jpg';
+import eleven from '../../assets/images/Corporate Training/11.png';
+import twl from '../../assets/images/Corporate Training/12.jpg';
+
+import imageOne from '../../assets/images/Corporate Training/trainingOne.jpg';
+import imageTwo from '../../assets/images/Corporate Training/trainingTwo.jpg';
+import imageThree from '../../assets/images/Corporate Training/trainingThree.jfif';
+import imageFour  from '../../assets/images/Corporate Training/trainingFour.jpg';
+import imageFive  from '../../assets/images/Corporate Training/training.jpg';
+import imageSix  from '../../assets/images/Corporate Training/training1.jpg';
+import imageSeven  from '../../assets/images/Corporate Training/training3.jpg';
+import imageEight  from '../../assets/images/Corporate Training/training11.jpg';
+import imageNine  from '../../assets/images/Corporate Training/training12.jpg';
+import imageTen  from '../../assets/images/Corporate Training/training5.jpg';
+import imageTwl  from '../../assets/images/Corporate Training/training8.jpg';
+import imageThirt  from '../../assets/images/Corporate Training/kaymed.jpg';
+import imageFourthen  from '../../assets/images/Corporate Training/Orange Medipharma (2).jpg';
+import imageFifthen  from '../../assets/images/Corporate Training/Rafflesia Life Sciences Training Seesion in March,18.jpg';
 
 function ForCorporate() {
 	let data = [
@@ -217,7 +244,94 @@ function ForCorporate() {
 				</div>
 			</div>
 			<section className={styles.reviews}>
-				<Heading main="Corporate Reviews" subtext="What do pharma companies say about us" />
+				<Heading main="Affiliations with Corporates" subtext="What do pharma companies say about us" />
+				
+				<div className="container">
+					<div className="row align-items-center pb-5">
+						<div className="col-lg-2">
+							<img src={one} alt="corporate logo" />
+						</div>
+						
+						<div className="col-lg-2">
+							<img src={eight} alt="corporate logo" />
+						</div>
+						<div className="col-lg-2">
+							<img src={two} alt="corporate logo" />
+						</div>
+						<div className="col-lg-2">
+							<img src={four} alt="corporate logo" />
+						</div>
+						<div className="col-lg-2">
+							<img src={twl} alt="corporate logo" />
+						</div>
+						<div className="col-lg-2">
+							<img src={three} alt="corporate logo" />
+						</div>
+						<div className="col-lg-2">
+							<img src={six} alt="corporate logo" />
+						</div>
+						<div className="col-lg-2">
+							<img src={seven} alt="corporate logo" />
+						</div>
+						<div className="col-lg-2">
+							<img src={eleven} alt="corporate logo" />
+						</div>
+						<div className="col-lg-2">
+							<img src={five} alt="corporate logo" />
+						</div>
+						<div className="col-lg-2">
+							<img src={ten} alt="corporate logo" />
+						</div>
+						<div className="col-lg-2">
+							<img src={nine} alt="corporate logo" />
+						</div>
+					</div>
+
+					<div className="row pb-5">
+						<div className="col-lg-4">
+							<img src={imageOne} alt="corporate" />
+						</div>
+						<div className="col-lg-4">
+							<img src={imageTwo} alt="corporate" />
+						</div>
+						<div className="col-lg-4">
+							<img src={imageThree} alt="corporate" />
+						</div>
+						<div className="col-lg-4">
+							<img src={imageFifthen} alt="corporate" />
+						</div>
+						<div className="col-lg-4">
+							<img src={imageNine} alt="corporate" />
+						</div>
+						<div className="col-lg-4">
+							<img src={imageFourthen} alt="corporate" />
+						</div>
+						<div className="col-lg-4">
+							<img src={imageFive} alt="corporate" />
+						</div>
+						<div className="col-lg-4">
+							<img src={imageSix} alt="corporate" />
+						</div>
+						<div className="col-lg-4">
+							<img src={imageSeven} alt="corporate" />
+						</div>
+						{/* <div className="col-lg-4">
+							<img src={imageEight} alt="corporate" />
+						</div> */}
+						<div className="col-lg-4">
+							<img src={imageTen} alt="corporate" />
+						</div>
+						<div className="col-lg-4">
+							<img src={imageThirt} alt="corporate" />
+						</div>
+						<div className="col-lg-4">
+							<img src={imageTwl} alt="corporate" />
+						</div>
+						<div className="col-lg-12 text-center">
+							<img src={imageFour} alt="corporate" />
+						</div>
+					</div>
+				</div>
 				<Reviews data={data} />
 			</section>
 		</section>

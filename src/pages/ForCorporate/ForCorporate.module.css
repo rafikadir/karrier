@@ -1,3 +1,4 @@
+
 .ForCorporate {
 	width: 100%;
 	display: flex;
@@ -18,12 +19,12 @@
 }
 
 .onlineImg {
-	width: 25vw;
+	width: 45vw;
 	border-radius: 2em;
 }
 .onlineClassInfo {
 	padding: 40px;
-	width: 45vw;
+	width: 40vw;
 	display: flex;
 	flex-direction: column;
 	text-align: left;
@@ -139,9 +140,12 @@
 	border: 1px grey solid;
 	padding: 2.5rem;
 	margin: 1rem 0;
+	background: #0dcaf029;
+    box-shadow: 0 10px 10px 5px #ddd;
 }
 .ForCorporate .offerings h4 {
-	font-size: 20px;
+	font-size: 24px;
+    margin-bottom: 10px;
 }
 .ForCorporate .offerings ul li {
 	font-family: sans-serif;
@@ -163,4 +167,9 @@
 	.ForCorporate .offerings ul {
 		width: 90%;
 	}
+}
+
+img {
+	max-width: 100%;
+	margin-bottom: 20px;
 }

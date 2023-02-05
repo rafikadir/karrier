@@ -2,9 +2,6 @@
 	width: 25vw;
 	height: 90vh;
 	min-width: 280px;
-	/* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
-	/* border-radius: 1em; */
-	/* overflow: hidden; */
 	position: relative;
 	margin: 6.5vh !important;
 }
@@ -32,8 +29,6 @@
 	border-radius: 1em;
 	display: flex;
 	background-color: white;
-	/* justify-content: center; */
-	/* border-radius: 1em; */
 }
 .imageContainer img {
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -61,6 +56,7 @@
 	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 	/* line-height: 225px; */
+	background: #f3f3f3;
 }
 
 .courseCard:hover .imageContainer {
@@ -77,9 +73,6 @@
 	z-index: -3;
 	position: absolute;
 	top: 0;
-	/* width: 225px;
-	height: 225px; */
-	/* background: #33475b; */
 	background-color: rgb(255, 255, 255);
 	-webkit-transform: perspective(2000px) rotateY(-180deg);
 	-moz-transform: perspective(2000px) rotateY(-180deg);
@@ -90,11 +83,9 @@
 	-moz-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
-
-	/* color: #dad5c7; */
 	text-align: center;
-	/* line-height: 225px; */
-	/* padding:4px; */
+	background: #f3f3f3;
+
 }
 .cardInfo p {
 	font-family: "open_sansbold", arial, serif;
@@ -116,8 +107,7 @@
 	list-style-position: inside;
 	text-align: left;
 }
-.point {
-}
+
 .listTitle {
 	text-align: left;
 	font-weight: bold;
@@ -131,25 +121,6 @@
 	margin: 2vh 2vw;
 	text-align: left;
 }
-
-/* ///////////////////////////////////////////////// */
-/* .courseCard .cardInfo {
-	-webkit-transform: perspective(2000px) rotateY(0deg);
-	-moz-transform: perspective(2000px) rotateY(0deg);
-	-ms-transform: perspective(2000px) rotateY(0deg);
-	-o-transform: perspective(2000px) rotateY(0deg);
-	transform: perspective(2000px) rotateY(0deg);
-	z-index: 7;
-}
-.courseCard .imageContainer {
-	-webkit-transform: perspective(2000px) rotateY(180deg);
-	-moz-transform: perspective(2000px) rotateY(180deg);
-	-ms-transform: perspective(2000px) rotateY(180deg);
-	-o-transform: perspective(2000px) rotateY(180deg);
-	transform: perspective(2000px) rotateY(180deg);
-	z-index: -5;
-} */
-/* //////////////////////////////// */
 
 /* BUTTON */
 .submit {

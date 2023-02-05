@@ -10,15 +10,13 @@ import img2 from "../../assets/images/Pictures/campus to corporate/Best Pharma S
 import internshipModel from "../../assets/images/Pictures/campus to corporate/campus to corporate.jpg";
 import Info from "../../components/info";
 import { Helmet } from "react-helmet";
-import CollegeOne from '../../assets/images/Campus to corporate/chitkara university.jpg';
-import CollegeTwo from '../../assets/images/Campus to corporate/dr-dy-patil-college-of-pharmacy-akurdi-pune-logo-removebg-preview-removebg-preview.jpg';
+import CollegeOne from '../../assets/images/Campus to corporate/chitkara university.png';
+import CollegeTwo from '../../assets/images/Campus to corporate/Pad Dr D Y PATIL INSTITUTE OF PHARMACY.jpg';
 import CollegeThree from '../../assets/images/Campus to corporate/goa college of pharmacy.jpg';
-import CollegeFour from '../../assets/images/Campus to corporate/HYGIA-removebg-preview.jpg';
-import CollegeFive from '../../assets/images/Campus to corporate//Lovely professional university.jpg';
-import CollegeSix from '../../assets/images/Campus to corporate/maharashtra_college-removebg-preview.jpg';
-import reviewOne from '../../assets/images/Campus to corporate/Sachin Waghmare.jpg';
-import reviewTwo from '../../assets/images/Campus to corporate/Subhasmita Baidya.jpg';
-import reviewThree from '../../assets/images/Campus to corporate/Prajwal.jpg';
+import CollegeFour from '../../assets/images/Campus to corporate/MAHARASTHRA.jfif.jpg';
+import CollegeFive from '../../assets/images/Campus to corporate/LOVELY.png';
+import CollegeSix from '../../assets/images/Campus to corporate/GOEL INSTITUTE.jfif.jpg';
+import reviewOne from '../../assets/images/Campus to corporate/Ravinder comments.jpg';
 import reviewFour from '../../assets/images/Campus to corporate/Ratish Dixit review.jpg';
 
 
@@ -137,22 +135,9 @@ function InternshipProgram() {
 				<Heading main="Features" subtext="Salient Features" />
 				<Benefits />
 			</section>
-			<section
-				style={{
-					backgroundImage: `url(${Background})`,
-					backgroundPosition: "center",
-					backgroundSize: "center",
-					backgroundRepeat: "no-repeat",
-				}}
-				className={styles.reviews}
-			>
-				<Heading main="Student Reviews" subtext="What do our students say about us" />
-				{/* <Reviews /> */}
-				<StudentsReviews />
-			</section>
 			<section className={styles.reviews}>
-				<Heading main="College Reviews" subtext="What do colleges say about us" />
-				<div className="row text-center">
+				<Heading main="Affiliations with Institutions" subtext=""/>
+				<div className="row text-center pt-5 align-items-center">
 					<div className="col-lg-2 col-md-4">
 						<img className={styles.collegeLogo} src={CollegeOne} alt="college" />
 					</div>
@@ -174,22 +159,12 @@ function InternshipProgram() {
 				</div>
 
 				<div className="row">
-					<div className="col-lg-3 col-md-6">
+					<div className="col-md-6">
 						<div className={styles.collegeComment}>
 							<img src={reviewOne} alt="college" />
 						</div>
 					</div>
-					<div className="col-lg-3 col-md-6">
-						<div className={styles.collegeComment}>
-							<img src={reviewTwo} alt="college" />
-						</div>
-					</div>
-					<div className="col-lg-3 col-md-6">
-						<div className={styles.collegeComment}>
-							<img src={reviewThree} alt="college" />
-						</div>
-					</div>
-					<div className="col-lg-3 col-md-6">
+					<div className="col-md-6">
 						<div className={styles.collegeComment}>
 							<img src={reviewFour} alt="college" />
 						</div>
@@ -197,6 +172,19 @@ function InternshipProgram() {
 				</div>
 				{/* <Reviews /> */}
 				<CollegeReviews />
+			</section>
+			<section
+				style={{
+					backgroundImage: `url(${Background})`,
+					backgroundPosition: "center",
+					backgroundSize: "center",
+					backgroundRepeat: "no-repeat",
+				}}
+				className={styles.reviews}
+			>
+				<Heading main="Student Reviews" subtext="What do our students say about us" />
+				{/* <Reviews /> */}
+				<StudentsReviews />
 			</section>
 		</section>
 		</>

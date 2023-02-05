@@ -303,9 +303,6 @@ function Courses() {
 				</div>
 				<section className={styles.reviews}>
 					<Heading main="Reviews" subtext="what do our students say about us" />
-					<Reviews data={data} />
-					<img src={ReviewsImg} className={styles.reviewImg} alt="reviews" />
-
 					<div className="row px-5">
 						<div className="col-lg-4">
 							<iframe src="https://www.youtube.com/embed/7Ok6lgX_0kY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -326,6 +323,10 @@ function Courses() {
 							<iframe src="https://www.youtube.com/embed/j06MKZFqhxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 						</div>
 					</div>
+
+					<img src={ReviewsImg} className={styles.reviewImg} alt="reviews" />
+
+					<Reviews data={data} />
 				</section>
 			</section>
 		</>
