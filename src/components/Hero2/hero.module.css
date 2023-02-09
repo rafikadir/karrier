@@ -16,7 +16,7 @@ body {
 	height: 116.5vh;
 }
 .box1 {
-	width: 500px;
+	width: 450px;
 	height: 500px;
 	background-image: url("../../assets/images/Pictures/fresher-jobs.png");
 	position: absolute;
@@ -29,12 +29,12 @@ body {
 .box1:after {
 	content: "";
 	position: absolute;
-	width: 500px;
+	width: 450px;
 	height: 500px;
-	background-image: url("./fresher-jobs.png");
+	background-image: url("../../assets/images/Pictures/fresher-jobs.png");
+	background-size: cover;
 	left: 0px;
 	z-index: -1;
-	background-size: cover;
 }
 @keyframes anim {
 	from {
@@ -60,12 +60,10 @@ body {
 	height: auto;
 	box-sizing: border-box;
 	font-family: "poppins";
-	/* color: white; */
 	position: absolute;
 	top: 32vh;
 	left: 8vw;
 	overflow: hidden;
-	/* background-color: #09f; */
 }
 
 .name {
@@ -76,7 +74,6 @@ body {
 	color: white !important;
 }
 .tagline {
-	/* line-height: 130px; */
 	font-size: 2em;
 	font-weight: 500;
 	margin: 0;
@@ -136,9 +133,9 @@ body {
 		font-size: 1.5em;
 	}
 }
+
 @media (max-width: 500px) {
 	.box1 {
-		/* left: 13.5vw; */
 		left: calc(50% - 175px);
 	}
 	@keyframes anim2 {
@@ -207,7 +204,7 @@ body {
 	height: 100vh;
 }
 .bg {
-	animation: slide 3s ease-in-out infinite alternate;
+	/* animation: slide 3s ease-in-out infinite alternate; */
 
 	background: -webkit-linear-gradient(-60deg, #05a 50%, #038 0);
 	background: linear-gradient(-60deg, #05a 50%, #038 0);
@@ -229,23 +226,6 @@ body {
 	animation-duration: 5s;
 }
 
-/* .content {
-	background-color:rgba(255,255,255,.8);
-	border-radius:.25em;
-	box-shadow:0 0 .25em rgba(0,0,0,.25);
-	box-sizing:border-box;
-	left:50%;
-	padding:10vmin;
-	position:fixed;
-	text-align:center;
-	top:50%;
-	transform:translate(-50%, -50%);
-  }
-  
-  h1 {
-	font-family:monospace;
-  } */
-
 @keyframes slide {
 	0% {
 		transform: translateX(-25%);
@@ -256,8 +236,6 @@ body {
 }
 /* ROTATING SQUARES */
 .rotatingSquaresBg {
-	/* background-color: #0040c1;
-	position: relative; */
 	height: 100vh;
 	overflow: hidden;
 	font-family: "Montserrat", sans-serif;

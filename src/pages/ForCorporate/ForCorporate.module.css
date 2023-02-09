@@ -58,6 +58,14 @@
 	.onlineClassInfo {
 		text-align: center;
 	}
+
+	.nabgitaLogo {
+		margin-top: 95px;
+	}
+
+	.missionVision {
+		padding: 0rem !important;
+	}
 }
 .bold {
 	font-weight: bold;
@@ -172,4 +180,21 @@
 img {
 	max-width: 100%;
 	margin-bottom: 20px;
+}
+
+.video {
+	max-width: 600px;
+	margin: auto;
+}
+
+.reco {
+	max-width: 480px;
+	box-shadow: 0 0 10px 5px #dddddd82;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 550px) { 
+	.reco {
+		max-width: 100%;
+	}
 }

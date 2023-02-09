@@ -154,6 +154,8 @@ function Courses() {
 						"interactionCount": "54"						
 					})}
 				</script>
+
+				<script src="https://apps.elfsight.com/p/platform.js" defer></script>
 			</Helmet>
 
 			<section className={styles.ForStudents}>
@@ -231,6 +233,18 @@ function Courses() {
 						},
 					]}
 				/>
+				<div className="container">
+					<div className="row mb-5">
+						<div className="col-lg-6">
+							<h2 className="mt-0 mb-4">Karrier Training & Evolution Institute</h2>
+							<iframe src="https://www.youtube.com/embed/p565Q2-OBb4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+						<div className="col-lg-6">
+							<h2 className="mt-0 mb-4">Medical Representative Course Fees</h2>
+							<iframe src="https://www.youtube.com/embed/qy8_mPgaNIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
 				<div className={styles.courseCardContainer}>
 					<CourseCard
 						name="Propel"
@@ -301,26 +315,45 @@ function Courses() {
 						cost="Rs 20,400 + GST"
 					/>
 				</div>
+				<div className="container">
+					<h2 className="text-center mb-5">Students’ Personality Transformation </h2>
+					<div className="row">
+						<div className="col-lg-6 mb-2">
+							<h4 className="text-center mb-4 text-primary">Amit Kushwaha Personality Transformation</h4>
+							<iframe src="https://www.youtube.com/embed/A_D_7CC2jGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+						<div className="col-lg-6">
+							<h4 className="text-center mb-4 text-primary">Syed Mohd Asad Personality Transformation</h4>
+							<iframe src="https://www.youtube.com/embed/ljQ2wax9CB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
 				<section className={styles.reviews}>
 					<Heading main="Reviews" subtext="what do our students say about us" />
-					<div className="row px-5">
-						<div className="col-lg-4">
+					<div className="row px-5 mb-5">
+						<div className="col-lg-3">
 							<iframe src="https://www.youtube.com/embed/7Ok6lgX_0kY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 						</div>
-						<div className="col-lg-4">
+						<div className="col-lg-3">
 							<iframe src="https://www.youtube.com/embed/JY6KVzxF6tA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 						</div>
-						<div className="col-lg-4">
-							<iframe src="https://www.youtube.com/embed/Dq1RzWHH-v0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						<div className="col-lg-3">
+							<iframe src="https://www.youtube.com/embed/dNtC_o5kP5w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 						</div>
-						<div className="col-lg-4">
+						<div className="col-lg-3">
 							<iframe src="https://www.youtube.com/embed/gt6wrgf3X1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 						</div>
-						<div className="col-lg-4">
+						<div className="col-lg-3">
 							<iframe src="https://www.youtube.com/embed/HXIC_39nwUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 						</div>
-						<div className="col-lg-4">
-							<iframe src="https://www.youtube.com/embed/j06MKZFqhxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						<div className="col-lg-3">
+							<iframe src="https://www.youtube.com/embed/F8B39NDvRNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+						<div className="col-lg-3">
+							<iframe src="https://www.youtube.com/embed/9vuEtnsyf_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+						<div className="col-lg-3">
+							<iframe src="https://www.youtube.com/embed/95hzNKh8UvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 						</div>
 					</div>
 
@@ -328,6 +361,9 @@ function Courses() {
 
 					<Reviews data={data} />
 				</section>
+				<div className="mt-5">
+					<div class="elfsight-app-0a395800-30b7-4648-a058-d87897ca1250"></div>
+				</div>
 			</section>
 		</>
 	);

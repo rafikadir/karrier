@@ -13,7 +13,6 @@ import JobsForFresher from "../../assets/home/jobs for fresher.jpg";
 import JourneySoFar from "../../assets/home/Journey so far.jpg";
 import ChooseUs from "../../components/chooseUs";
 import Info from "../../components/info";
-import FAQ from "../../components/faq";
 import { Helmet } from "react-helmet";
 
 function Home() {
@@ -26,19 +25,20 @@ function Home() {
 				<meta name="robots" content="index,follow"/>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<meta name="language" content="English"/>
-				<link rel="canonical" href="https://karrier.in" />
+				<link rel="canonical" href="https://karrier.in/jobs-for-fresher" />
+				
 				{/* The Open Graph protocol */}
 				<meta property="og:url" content="https://karrier.in"/>
 				<meta property="og:type" content="website"/>
 				<meta property="og:title" content="Pharma jobs for graduates with high salary- Karrier"/>
 				<meta property="og:description" content="Fresh graduate & searching job? then MR job can be a good choice. Salary of a medical representative is 2.80 lacs/annum- higher than a fresh engineer"/>
-				<meta property="og:image" content="https://karrier.in/static/media/black.0492f018.png"/>
+				<meta property="og:image" content="https://www.facebook.com/photo?fbid=568419788636978&set=a.453159113496380"/>
 				<meta name="twitter:card" content="summary_large_image"/>
 				<meta property="twitter:domain" content="karrier.in"/>
 				<meta property="twitter:url" content="https://karrier.in"/>
 				<meta name="twitter:title" content="Pharma jobs for graduates with high salary- Karrier"/>
 				<meta name="twitter:description" content="Fresh graduate & searching job? then MR job can be a good choice. Salary of a medical representative is 2.80 lacs/annum- higher than a fresh engineer"/>
-				<meta name="twitter:image" content="https://karrier.in/static/media/black.0492f018.png"/> 
+				<meta name="twitter:image" content="https://www.facebook.com/photo?fbid=568419788636978&set=a.453159113496380"/> 
 			</Helmet>
 		
 			<section className={styles.page}>

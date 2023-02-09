@@ -1,13 +1,11 @@
 import React from "react";
 import styles from "./hero.module.css";
 import "animate.css";
-import Bubbles from "./bubbles";
 import SlidingDiagonals from "./slidingDiagonals";
 
 function Hero() {
 	return (
 		<div className={`${styles.hero} ${styles.bubbles}`}>
-			<Bubbles />
 			<SlidingDiagonals />
 
 			<div className={styles.box1}></div>

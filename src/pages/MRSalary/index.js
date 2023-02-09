@@ -7,7 +7,8 @@ import Info from "../../components/info";
 import { Helmet } from "react-helmet";
 import { JsonLd } from "react-schemaorg";
 import './MRSalary.module.css';
-
+import chart from '../../assets/images/Pictures/salary-of-medicl-representative-in-india.jpg'
+import { style } from "@mui/system";
 function MRSalary() {
 	return (
 		<>
@@ -48,6 +49,8 @@ function MRSalary() {
 					},
 					})}
 				</script>
+
+				<script src="https://apps.elfsight.com/p/platform.js" defer></script>
 			</Helmet>
 		
 			<section className={styles.Introduction}>
@@ -60,7 +63,7 @@ function MRSalary() {
 								src: img1,
 								title: "MR job salary",
 								alt: "medical representative job benefits",
-								heading: "MR job salary",
+								heading: "MR JOB SALARY",
 								h2: true,
 								text: (
 									<div>
@@ -87,9 +90,10 @@ function MRSalary() {
 										a package of around 2.40 lacs - 4.5 lacs/annum + incentives.
 										<br />
 										The average salary of a medical representative in India is 2.80 lacs/ annum. Metro city reps
-										get more packages compared to other cities. For your reference, we are enclosing city-wise
-										salaries for a MR:
-										<ul className={styles.mt}>
+										get more packages compared to other cities. For your reference, we are enclosing city-wise starting
+										salaries (Per Month) for a MR, In addition to salaries they will get TA + DA + Incentives:
+										<br/>
+										{/* <ul className={styles.mt}>
 											<li>• Delhi <b>Rs 18,389</b> per month</li>
 											<li>• Kolkata <b>Rs. 21,739</b> per month</li>
 											<li>• Bengaluru <b>Rs 21,397</b> per month</li>
@@ -101,7 +105,8 @@ function MRSalary() {
 											<li>• Patna <b>Rs 14,494</b> per month</li>
 											<li>• Pune <b>Rs 19,463</b> per month</li>
 											<li>• Ahmedabad <b>Rs 18,836</b> per month</li>
-										</ul>
+										</ul> */}
+										<img className={styles.chart} src={chart} alt="salary of medical representative in india" />
 										<p className={styles.mt}>
 											Huge Earning Potential: If you are a performer then besides salaries & allowances, you will
 											earn monthly incentives on the basis of achievement of the target. Companies like Mankind,
@@ -120,23 +125,26 @@ function MRSalary() {
 									<div>
 										If you’re seeking a job-oriented course after graduation then an MR job in pharma company
 										may be an ideal choice for you as here you can grow faster than in other professions. If you
-										are looking for a job in a pharma company then you can join our Facebook group named 
-										<b>“medical representative job for fresher”</b> by this{" "}
-										<a className={styles.links} href="https://www.facebook.com/groups/162301004521948">link</a> You will get all updates
+										are looking for a job in a pharma company then you can join our Facebook group named  
+										<strong className="text-primary"> “MEDICAL REPRESENTATIVE JOB FOR FRESHER”</strong> by this{" "}
+										<span className={styles.link}><a href="https://www.facebook.com/groups/162301004521948" target={`_blank`}>LINK</a></span> You will get all updates
 										regarding the pharma vacancy for fresher & MR jobs for fresher in this Facebook group. You
 										can also search medical representative vacancies in various job portals like:
 										<ul>
-											<li>
-												<a className={styles.links} href="https://in.indeed.com">Indeed</a>
+											<li className={styles.links}>
+												Indeed
 											</li>
-											<li>
-												<a className={styles.links} href="https://www.naukri.com">Naukri</a>
+											<br />
+											<li className={styles.links}>
+												Naukri
 											</li>
-											<li>
-												<a className={styles.links} href="https://www.linkedin.com">LinkedIn</a>
+											<br />
+											<li className={styles.links}>
+												LinkedIn
 											</li>
-											<li>
-												<a className={styles.links} href="http://pharmatree.in ">PharmaTree</a>
+											<br />
+											<li className={styles.links}>
+												PharmaTree
 											</li>
 										</ul>
 										The sales job is one of the toughest jobs. Generally in any sales job, you have to make new
@@ -216,6 +224,9 @@ function MRSalary() {
 					/>
 				</div>
 			</section>
+			<div className="mt-5 mb-4">
+				<div class="elfsight-app-80e32222-2dd7-40b2-bf1e-7cdda622c1ce"></div>
+			</div>
 		</>
 	);
 }

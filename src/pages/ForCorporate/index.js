@@ -32,13 +32,14 @@ import imageFour  from '../../assets/images/Corporate Training/trainingFour.jpg'
 import imageFive  from '../../assets/images/Corporate Training/training.jpg';
 import imageSix  from '../../assets/images/Corporate Training/training1.jpg';
 import imageSeven  from '../../assets/images/Corporate Training/training3.jpg';
-import imageEight  from '../../assets/images/Corporate Training/training11.jpg';
 import imageNine  from '../../assets/images/Corporate Training/training12.jpg';
 import imageTen  from '../../assets/images/Corporate Training/training5.jpg';
 import imageTwl  from '../../assets/images/Corporate Training/training8.jpg';
 import imageThirt  from '../../assets/images/Corporate Training/kaymed.jpg';
 import imageFourthen  from '../../assets/images/Corporate Training/Orange Medipharma (2).jpg';
 import imageFifthen  from '../../assets/images/Corporate Training/Rafflesia Life Sciences Training Seesion in March,18.jpg';
+
+import recomendation from '../../assets/images/Pictures/Ambrosia Recomemdation.jpeg.jpg'
 
 function ForCorporate() {
 	let data = [
@@ -120,7 +121,9 @@ function ForCorporate() {
 
 		<section className={styles.ForCorporate}>
 			<img src={nabgita} className={styles.nabgitaLogo} alt="navita logo"/>
-			<Heading subtext="A guiding light to address your key challenges.!!!" />
+			<Heading subtext="NABIGETA SOLUTIONIST - A guiding light to address your key challenges.!!!" />
+
+			<h1>Pharmaceutical Sales Training Program</h1>
 			<div className={styles.onlineContainerRow}>
 				<div
 					className={styles.onlineImg}
@@ -243,46 +246,59 @@ function ForCorporate() {
 					</div>
 				</div>
 			</div>
+			<div className="container">
+				<h2 className="mb-5">Pharma Sales Training</h2>
+				<div className="row align-items-center">
+					<div className="col-lg-6">
+						<div className={styles.video}>
+							<iframe src="https://www.youtube.com/embed/NSPZpn49jz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+					</div>
+					<div className="col-lg-6">
+						<img className={styles.reco} src={recomendation} alt="recomendation" />
+					</div>
+				</div>
+		</div>
 			<section className={styles.reviews}>
 				<Heading main="Affiliations with Corporates" subtext="What do pharma companies say about us" />
 				
 				<div className="container">
 					<div className="row align-items-center pb-5">
-						<div className="col-lg-2">
+						<div className="col-lg-2 text-center">
 							<img src={one} alt="corporate logo" />
 						</div>
 						
-						<div className="col-lg-2">
+						<div className="col-lg-2 text-center">
 							<img src={eight} alt="corporate logo" />
 						</div>
-						<div className="col-lg-2">
+						<div className="col-lg-2 text-center">
 							<img src={two} alt="corporate logo" />
 						</div>
-						<div className="col-lg-2">
+						<div className="col-lg-2 text-center">
 							<img src={four} alt="corporate logo" />
 						</div>
-						<div className="col-lg-2">
+						<div className="col-lg-2 text-center">
 							<img src={twl} alt="corporate logo" />
 						</div>
-						<div className="col-lg-2">
+						<div className="col-lg-2 text-center">
 							<img src={three} alt="corporate logo" />
 						</div>
-						<div className="col-lg-2">
+						<div className="col-lg-2 text-center">
 							<img src={six} alt="corporate logo" />
 						</div>
-						<div className="col-lg-2">
+						<div className="col-lg-2 text-center">
 							<img src={seven} alt="corporate logo" />
 						</div>
-						<div className="col-lg-2">
+						<div className="col-lg-2 text-center">
 							<img src={eleven} alt="corporate logo" />
 						</div>
-						<div className="col-lg-2">
+						<div className="col-lg-2 text-center">
 							<img src={five} alt="corporate logo" />
 						</div>
-						<div className="col-lg-2">
+						<div className="col-lg-2 text-center">
 							<img src={ten} alt="corporate logo" />
 						</div>
-						<div className="col-lg-2">
+						<div className="col-lg-2 text-center">
 							<img src={nine} alt="corporate logo" />
 						</div>
 					</div>

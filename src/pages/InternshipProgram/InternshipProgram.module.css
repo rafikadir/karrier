@@ -148,3 +148,14 @@
 	margin: 2rem;
 	max-width: 55%;
 }
+
+.video {
+	max-width: 600px;
+	margin: 0  auto 50px;
+}
+
+@media only screen and (max-width: 650px) {
+	.internshipModel {
+		max-width: 75%;
+	}
+}

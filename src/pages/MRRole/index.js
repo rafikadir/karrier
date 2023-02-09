@@ -45,7 +45,9 @@ function MRRole() {
 						"query-input": "required name=search_term_string",
 						},
 					})}
-				</script>   
+				</script>  
+
+				<script src="https://apps.elfsight.com/p/platform.js" defer></script> 
 			</Helmet>	
 			
 			<section className={styles.Introduction}>
@@ -172,6 +174,10 @@ function MRRole() {
 					/>
 				</div>
 			</section>
+
+			<div className="mt-5 mb-4">
+				<div class="elfsight-app-80e32222-2dd7-40b2-bf1e-7cdda622c1ce"></div>
+			</div>
 		</>
 	);
 }

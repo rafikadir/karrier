@@ -26,7 +26,7 @@ function InternshipProgram() {
 			<Helmet>
 				<meta name="title" content="Graduate >> INTERNSHIP >> High Chances to get hired"/>
 				<meta name="description" content="CAMPUS to CORPORATE - An internship in pharma sales for graduates. Ideal for Degree college/university placement cell. Industry Tie-ups ⭐⭐⭐⭐⭐"/>
-				<meta name="keywords" content="Campus to corporate, campus to corporate training, soft skill trainer, campus placement, placement drive, internships in pharmaceutical companies, sales marketing internship, internship in pharma company, internship in pharmaceutical company, pharma internship, internship after graduation"/>
+				<meta name="keywords" content="Campus to corporate, campus to corporate training, soft skill trainer, campus placement, placement drive, internships in pharmaceutical companies, sales marketing internship, internship in pharma company, internship in pharmaceutical company, pharma internship, internship after graduation, industrial training in pharma"/>
 				<meta name="robots" content="index,follow"/>
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<meta name="language" content="English"/>
@@ -74,9 +74,9 @@ function InternshipProgram() {
 						picAlign: "left",
 						src: img1,
 						h2: true,
-						title: "Kick-start your career",
+						title: "Kick-start Your Career",
 						alt: "students sitting in front of the laptop",
-						heading: "Kick-start Your Career",
+						heading: "Internship Program- Kick-start Your Career ",
 						text: (
 							<div>
 								Kick-start your career - An Internship Program (for degree colleges, universities). 9 out of
@@ -117,6 +117,13 @@ function InternshipProgram() {
 					},
 				]}
 			/>
+			<div className="container">
+				<h2 className="mb-5">Campus to Corporate Program</h2>
+
+				<div className={styles.video}>
+				<iframe src="https://www.youtube.com/embed/Y0p1iwtDH0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				</div>
+			</div>
 			<p>Kindly refer to the Internship model illustrated here… </p>
 			<img
 				src={internshipModel}
@@ -159,7 +166,7 @@ function InternshipProgram() {
 				</div>
 
 				<div className="row">
-					<div className="col-md-6">
+					<div className="col-md-6 mb-1">
 						<div className={styles.collegeComment}>
 							<img src={reviewOne} alt="college" />
 						</div>

@@ -2,32 +2,24 @@ import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import styles from "./gallery.module.css";
 import React, { useLayoutEffect, useState } from "react";
-import wide1 from "../../assets/images/Pictures/gallery/wide1.jpg";
-import wide3 from "../../assets/images/Pictures/gallery/wide3.jpg";
-import wide4 from "../../assets/images/Pictures/gallery/wide4.jpg";
-import wide5 from "../../assets/images/Pictures/gallery/wide5.jpg";
-import wide6 from "../../assets/images/Pictures/gallery/wide6.jpg";
-import wide7 from "../../assets/images/Pictures/gallery/wide7.jpg";
-import wide8 from "../../assets/images/Pictures/gallery/wide8.jpg";
-import wide9 from "../../assets/images/Pictures/gallery/wide9.jpg";
-import wide10 from "../../assets/images/Pictures/gallery/wide10.jpg";
-import wide11 from "../../assets/images/Pictures/gallery/wide11.jpg";
-import square1 from "../../assets/images/Pictures/gallery/square1.jpg";
-import square2 from "../../assets/images/Pictures/gallery/square2.jpg";
-import tall1 from "../../assets/images/Pictures/gallery/tall1.jpg";
-import tall2 from "../../assets/images/Pictures/gallery/tall2.jpg";
-import tall3 from "../../assets/images/Pictures/gallery/tall3.jpg";
-import tall4 from "../../assets/images/Pictures/gallery/tall4.jpg";
 import one from "../../assets/images/Pictures/gallery/1.jpg";
 import two from "../../assets/images/Pictures/gallery/2.jpg";
 import three from "../../assets/images/Pictures/gallery/3.jpg";
 import four from "../../assets/images/Pictures/gallery/4.jpg";
 import five from "../../assets/images/Pictures/gallery/5.jpg";
-import six from "../../assets/images/Pictures/gallery/6.jpg";
+import six from "../../assets/images/Pictures/gallery/6.jpeg";
 import seven from "../../assets/images/Pictures/gallery/7.jpg";
 import eight from "../../assets/images/Pictures/gallery/8.jpg";
 import nine from "../../assets/images/Pictures/gallery/9.jpg";
 import ten from "../../assets/images/Pictures/gallery/10.jpg";
+import elv from "../../assets/images/Pictures/gallery/11.jpg";
+import twl from "../../assets/images/Pictures/gallery/12.jpg";
+import thr from "../../assets/images/Pictures/gallery/13.jpg";
+import fourthen from "../../assets/images/Pictures/gallery/14.jpg";
+import fifth from "../../assets/images/Pictures/gallery/15.jpg";
+import sixteen from "../../assets/images/Pictures/gallery/16.jpg";
+import seventh from "../../assets/images/Pictures/gallery/17.jpg";
+import eighteen from "../../assets/images/Pictures/gallery/18.jpg";
 
 function useWindowSize() {
 	const [size, setSize] = useState([0, 0]);
@@ -42,147 +34,41 @@ function useWindowSize() {
 	return size;
 }
 
-function srcset(image, size, rows = 1, cols = 1) {
-	return {
-		src: `${image}?w=${size * cols}&h=${size * rows}&fit=crop&auto=format`,
-		srcSet: `${image}?w=${size * cols}&h=${size * rows}&fit=crop&auto=format&dpr=2 2x`,
-	};
-}
+
 function Gallery() {
-	const [width, height] = useWindowSize();
-	let col, rowHeight;
-	if (width > 850) {
-		col = 4;
-		rowHeight = 302;
-	} else {
-		col = 2;
-		rowHeight = 250;
-	}
+
 	return (
 		<section className={styles.gallerySection}>
-			<ImageList sx={{ width: "100%", height: "100%" }} variant="quilted" cols={col} rowHeight={rowHeight}>
-				{itemData.map(item => (
-					<ImageListItem
-						className={styles.listItem}
-						key={item.img}
-						cols={item.cols || 1}
-						rows={item.rows || 1}
-					>
-						<img
-							className={styles.image}
-							{...srcset(item.img, 121, item.rows, item.cols)}
-							alt={item.title}
-							loading="lazy"
-						/>
-
-					</ImageListItem>
-				))}
-			</ImageList>
+			<div className="container">
+				<div className="row">
+					{itemData.map(item => (
+						<div className="col-lg-4">
+							<img src={item.img} alt="gallery" />
+						</div>
+					))}
+				</div>
+			</div>
 		</section>
 	);
 }
 
 const itemData = [
 	{
-		img: "https://res.cloudinary.com/def4bqkxv/image/upload/v1643440468/karrier/KarrierAssets/InstituteActivities/VIRACARE_PHARMA_w1eefy.jpg",
-		title: "Breakfast",
-		rows: 2,
-		cols: 2,
-	},
-	{
-		img: wide10,
-		title: "Tomato basil",
-		cols: 2,
-	},
-
-	{
-		img: wide9,
-		title: "Tomato basil",
-		cols: 2,
-	},
-	{
-		img: wide1,
-		title: "Hats",
-		cols: 2,
-	},
-	{
-		img: tall1,
+		img: fourthen,
 		title: "Honey",
-		author: "@arwinneil",
-		rows: 2,
-		cols: 2,
 	},
 	{
-		img: square2,
+		img: fifth,
 		title: "Basketball",
 	},
 	{
-		img: square1,
-		title: "Fern",
-	},
-	{
-		img: tall3,
-		title: "Mushrooms",
-		rows: 2,
+		img: nine,
+		title: "gallery",
 		cols: 2,
 	},
 	{
-		img: tall2,
-		title: "Mushrooms",
-	},
-
-	{
-		img: wide6,
-		title: "Tomato basil",
-	},
-
-	{
-		img: wide3,
-		title: "Bike",
-		cols: 2,
-	},
-
-	{
-		img: wide4,
-		title: "Mushrooms",
-		cols: 2,
-	},
-	{
-		img: wide5,
-		title: "Bike",
-		cols: 2,
-	},
-	{
-		img: tall4,
-		title: "Sea star",
-		rows: 2,
-		cols: 2,
-	},
-	{
-		img: "https://res.cloudinary.com/def4bqkxv/image/upload/v1643440478/karrier/KarrierAssets/InstituteActivities/Rafflesia_Life_Sciences_Training_Seesion_zrkhmg.jpg",
-		title: "Burger",
-		cols: 2,
-		rows: 2,
-	},
-	{
-		img: wide7,
-		title: "Tomato basil",
-		cols: 2,
-	},
-	{
-		img: wide8,
-		title: "Tomato basil",
-		cols: 2,
-	},
-
-	{
-		img: "https://res.cloudinary.com/def4bqkxv/image/upload/v1643440479/karrier/KarrierAssets/InstituteActivities/Institute_Pic_ne5tvq.jpg",
-		title: "Coffee",
-		cols: 2,
-	},
-	{
-		img: wide11,
-		title: "Tomato basil",
+		img: seven,
+		title: "gallery",
 		cols: 2,
 	},
 	{
@@ -191,9 +77,19 @@ const itemData = [
 		cols: 2,
 	},
 	{
+		img: seventh,
+		title: "Mushrooms",
+		rows: 2,
+		cols: 2,
+	},
+	{
 		img: two,
 		title: "gallery",
 		cols: 2,
+	},
+	{
+		img: sixteen,
+		title: "Fern",
 	},
 	{
 		img: three,
@@ -206,17 +102,7 @@ const itemData = [
 		cols: 2,
 	},
 	{
-		img: five,
-		title: "gallery",
-		cols: 2,
-	},
-	{
 		img: six,
-		title: "gallery",
-		cols: 2,
-	},
-	{
-		img: seven,
 		title: "gallery",
 		cols: 2,
 	},
@@ -226,8 +112,29 @@ const itemData = [
 		cols: 2,
 	},
 	{
-		img: nine,
+		img: eighteen,
 		title: "gallery",
+		cols: 2,
+	},
+	{
+		img: five,
+		title: "gallery",
+		cols: 2,
+	},
+	{
+		img: elv,
+		title: "Tomato basil",
+		cols: 2,
+	},
+
+	{
+		img: twl,
+		title: "Tomato basil",
+		cols: 2,
+	},
+	{
+		img: thr,
+		title: "Hats",
 		cols: 2,
 	},
 	{
