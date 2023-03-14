@@ -5,6 +5,7 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import { Link } from "react-router-dom";
 
 
 function TabPanel(props) {
@@ -112,6 +113,8 @@ function CourseCard(props) {
 					</Box>
 				</div>
 			</div>
+
+			<Link className="btn btn-primary text-uppercase font-weight-bold bg-dark" to="/coursefunnel/propel-pocket/landing-page" target={"_blank"}>Book a Free Demo</Link>
 
 			<div className={styles.submit}>
 				<a href="https://forms.gle/2dhkrDQupJxyV8df8">

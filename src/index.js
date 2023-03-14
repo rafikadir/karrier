@@ -6,7 +6,6 @@ import reportWebVitals from "./reportWebVitals";
 import "./assets/main.css";
 import 'bootstrap/dist/css/bootstrap.css';
 
-
 // ReactDOM.render(
 // 	<React.StrictMode>
 // 		<App />
@@ -24,7 +23,7 @@ const hideLoader = () => loader.classList.add("loader--hide");
 setTimeout(
 	() =>
 		// the show/hide functions are passed as props
-		ReactDOM.render(<App hideLoader={hideLoader} showLoader={showLoader} />, document.getElementById("root")),
+		ReactDOM.hydrate(<App hideLoader={hideLoader} showLoader={showLoader} />, document.getElementById("root")),
 	1000
 );
 window.onbeforeunload = function () {

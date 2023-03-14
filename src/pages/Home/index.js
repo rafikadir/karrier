@@ -32,13 +32,13 @@ function Home() {
 				<meta property="og:type" content="website"/>
 				<meta property="og:title" content="Pharma jobs for graduates with high salary- Karrier"/>
 				<meta property="og:description" content="Fresh graduate & searching job? then MR job can be a good choice. Salary of a medical representative is 2.80 lacs/annum- higher than a fresh engineer"/>
-				<meta property="og:image" content="https://www.facebook.com/photo?fbid=568419788636978&set=a.453159113496380"/>
+				<meta property="og:image" content="https://i.ibb.co/3pBmkRY/Karrier-Logo.png"/>
 				<meta name="twitter:card" content="summary_large_image"/>
 				<meta property="twitter:domain" content="karrier.in"/>
 				<meta property="twitter:url" content="http://karrier.in"/>
 				<meta name="twitter:title" content="Pharma jobs for graduates with high salary- Karrier"/>
 				<meta name="twitter:description" content="Fresh graduate & searching job? then MR job can be a good choice. Salary of a medical representative is 2.80 lacs/annum- higher than a fresh engineer"/>
-				<meta name="twitter:image" content="https://www.facebook.com/photo?fbid=568419788636978&set=a.453159113496380"/>    
+				<meta name="twitter:image" content="https://i.ibb.co/3pBmkRY/Karrier-Logo.png"/>    
 				 
 				<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/21841890.js"></script>
 			</Helmet>

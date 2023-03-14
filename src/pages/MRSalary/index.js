@@ -5,10 +5,9 @@ import img1 from "../../assets/images/Pictures/salary/mr-job-salary.jpg";
 import img2 from "../../assets/images/Pictures/salary/salary-of-medical-representative.JPG";
 import Info from "../../components/info";
 import { Helmet } from "react-helmet";
-import { JsonLd } from "react-schemaorg";
 import './MRSalary.module.css';
-import chart from '../../assets/images/Pictures/salary-of-medicl-representative-in-india.jpg'
-import { style } from "@mui/system";
+import chart from '../../assets/images/Pictures/salary-of-medicl-representative-in-india.jpg';
+
 function MRSalary() {
 	return (
 		<>
@@ -187,26 +186,29 @@ function MRSalary() {
 								heading: "Eligibility for medical representative",
 								text: (
 									<div>
+										<p>
 										For being a medical sales rep. one must graduate from any stream. Usually, the industry
 										prefers science graduates (B.Sc or b pharma students). But a non-science graduate with a
 										good personality & knowledge can also be considered.
-										<br />
+										</p>
 										Among undergraduates, only d pharma is considered as a recommended qualification for MR job.
-										<br />
+										<p>
 										Students from tier 2/3 towns often struggle to crack interviews due to weak communication
 										skills, confidence & scientific knowledge. Top pharma companies are preferring experienced
 										candidates as they possess desired skills & knowledge. If you’re facing such an issue then
 										mr training program will resolve your issue & boost your confidence & skills to start a
 										career with good pharma companies.
-										<br />
+										</p>
+										<p>
 										Age Criteria: Besides medical representative job qualification, age plays a very crucial
 										role here. The industry is looking for graduates below 25 years of age. If you start early
 										preferably just after completion of graduation then there are higher chances to start a
-										career with good companies. The maximum age for entry is 27 years.
-										<br />
+										career with good companies. The maximum age for entry is 27 years.</p>
+										<p>
 										Although experienced candidates are in high demand, fresher may also enter this high-paying
 										industry after getting training for medical representatives by enhancing their medical
 										representative skills:
+										</p>
 										<ul className={styles.mt}>
 											<li>• Be willing to work hard.</li>
 											<li>• Good communication skills.</li>
