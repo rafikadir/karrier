@@ -7,8 +7,9 @@ import wide from "../../assets/images/Corporate Training/corporate-training-1.jp
 import nabgita from "../../assets/images/Pictures/Corporate Training/nabegita.png"
 import { Helmet } from "react-helmet";
 import Reviews from "../../components/reviews";
+import IndustryReviews from "../../components/industryReviews";
 import RamgopalBangad from "../../assets/images/Pictures/Internship/corporate/RamgopalBangad.png";
-import ArvindNigam from "../../assets/images/Pictures/Internship/corporate/ArvindNigam.png";
+import ArvindNigam from "../../assets/images/Pictures/Internship/corporate/ArvindNigam.jpg";
 import RajendraKhati from "../../assets/images/Pictures/Internship/corporate/RajendraKhati.png";
 import RajeshTewari from "../../assets/images/Pictures/Internship/corporate/RajeshTewari.png";
 import RajivPathak from "../../assets/images/Pictures/Internship/corporate/RajivPathak.png";
@@ -51,7 +52,7 @@ function ForCorporate() {
 			src: RamgopalBangad,
 		},
 		{
-			name: "ARVIND NIGARM",
+			name: "ARVIND NIGAM",
 			designation: "DIRECTOR KAPKIND PHARMA PVT LTD.",
 			review:
 				"“Yes, I believe with the help of this institute candidate can get help to improve themselves in a better way. Thank you Anubhav Sir, Please keep it up as always.” ",
@@ -348,6 +349,10 @@ function ForCorporate() {
 						</div>
 					</div>
 				</div>
+				<section className={styles.mb_10}>
+					<Heading main="Reviews" subtext="what does industry say about us" />
+					<IndustryReviews/>
+				</section>
 				<Reviews data={data} />
 			</section>
 		</section>

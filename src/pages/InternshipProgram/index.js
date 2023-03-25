@@ -77,20 +77,21 @@ function InternshipProgram() {
 						title: "Kick-start Your Career",
 						alt: "students sitting in front of the laptop",
 						heading: "Internship Program- Kick-start Your Career ",
-						text: (
-							<div>
-								Kick-start your career - An Internship Program (for degree colleges, universities). 9 out of
+						text: (<>
+							<div className="mb-2">
+								Kick-start your career - An Internship Program (for degree colleges, universities). <br/> 9 out of
 								10 students with internships get the job offer. Our Internship Program introduces the future
 								leaders of Pharma sales and marketing to the industry. You will be trained by our veteran
 								team, learn from industry veterans, and create valuable relationships with top professionals.
 								As a part of the program, you will be paired with a mentor who will guide you throughout your
 								entire experience.
-								<span className={styles.mb}></span>
+							</div>
+							<div>
 								This program is ideal for degree colleges/university final year graduates (any stream) willing
 								to start a career in pharma sales. This is a unique opportunity for students to earn a stipend
 								during a field internship within their state for a period of 3 months. There is a very high
 								chance for students to get employed after the successful completion of the field internship.
-							</div>
+							</div></>
 						),
 					},
 					{
@@ -101,18 +102,14 @@ function InternshipProgram() {
 						heading:
 							"Know your Mentor: Anubhav Saxena - Best Pharma Sales Trainer & Sales Consultant in India",
 						text: (
-							<div>
-								9 out of 10 students with internships get the job offer. Our Internship Program introduces the
-								future leaders of Pharma sales and marketing to the industry. You will be trained by our
-								veteran team, learn from industry veterans, and create valuable relationships with top
-								professionals. As a part of the program, you will be paired with a mentor who will guide you
-								throughout your entire experience.
-								<span className={styles.mb}></span>
-								This program is ideal for degree colleges/university final year graduates (any stream) willing
-								to start a career in pharma sales. This is a unique opportunity for students to earn a stipend
-								during a field internship within their state for a period of 3 months. There is a very high
-								chance for students to get employed after the successful completion of the field internship.
+							<>
+							<div className="mb-2">
+								Karrier Institute was founded by industry veteran Anubhav Saxena in 2015 having a rich 27+ years of experience in top-notch companies like SUN PHARMA, Cadila, Torrent, IPCA & Emcure. He is LSSSDC & NSDC certified pharma trainer in India.
 							</div>
+							<div>
+							He not only understands the real pain & struggle of graduates as he himself faces the situation but also he knows the way to overcome these situations. Under his able leadership, Karrier institute is making a significant difference in students' life from tier 2/3 towns for the past 7 years, thus karrier is considered the best medical representative training institute in India.
+							</div>
+							</>
 						),
 					},
 				]}

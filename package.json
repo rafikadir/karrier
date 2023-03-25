@@ -4,6 +4,9 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
+		"@babel/preset-env": "^7.20.2",
+		"@babel/preset-react": "^7.18.6",
+		"@babel/register": "^7.21.0",
 		"@brainhubeu/react-carousel": "^2.0.4",
 		"@emotion/react": "^11.6.0",
 		"@emotion/styled": "^11.6.0",
@@ -23,6 +26,7 @@
 		"caniuse-lite": "^1.0.30001375",
 		"font-awesome": "^4.7.0",
 		"framer-motion": "^4.1.17",
+		"ignore-styles": "^5.0.1",
 		"jquery": "^3.6.0",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
@@ -31,7 +35,7 @@
 		"react-material-ui-carousel": "^3.1.0",
 		"react-router-dom": "^6.0.2",
 		"react-schemaorg": "^2.0.0",
-		"react-snap": "^1.23.0",
+		"react-snap": "^1.13.1",
 		"schema-dts": "^1.1.0",
 		"styled-components": "^5.3.3",
 		"validator": "^13.7.0",
@@ -39,8 +43,8 @@
 		"zxcvbn": "^4.4.2"
 	},
 	"scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
+		"start": "react-scripts --openssl-legacy-provider start",
+		"build": "react-scripts --openssl-legacy-provider build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"postbuild": "react-snap"
@@ -64,6 +68,6 @@
 		]
 	},
 	"devDependencies": {
-		"react-scripts": "^5.0.1"
+		"react-scripts": "^2.1.3"
 	}
 }

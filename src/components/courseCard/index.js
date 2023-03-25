@@ -46,7 +46,7 @@ function CourseCard(props) {
 	const handleChange = (event, newValue) => {
 		setValue(newValue);
 	};
-	const { eligibilityPoints, curriculumPoints, mode, duration, cost, name, src } = props;
+	const { eligibilityPoints, curriculumPoints, mode, duration, cost, name, src, usp, payment } = props;
 	return (
 		<div className={styles.courseCardCol}>
 			<div className={styles.courseCard}>
@@ -95,6 +95,8 @@ function CourseCard(props) {
 									<span class={styles.title}>Cost:</span>
 									{cost}
 								</p>
+
+								<p><span class={styles.title}>{usp}</span></p>
 							</div>
 						</TabPanel>
 						<TabPanel value={value} index={1}>
@@ -114,6 +116,7 @@ function CourseCard(props) {
 				</div>
 			</div>
 
+			<a className="btn btn-primary text-uppercase font-weight-bold mb-2" href={`${payment}`} target={"_blank"}>Payment Link</a>
 			<Link className="btn btn-primary text-uppercase font-weight-bold bg-dark" to="/coursefunnel/propel-pocket/landing-page" target={"_blank"}>Book a Free Demo</Link>
 
 			<div className={styles.submit}>

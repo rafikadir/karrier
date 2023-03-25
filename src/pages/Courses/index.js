@@ -258,16 +258,18 @@ function Courses() {
 							"Pharmacology",
 							"Diseases",
 							"Therapies",
-							"Secret of Phone Selling",
+							"Secret of  Pharma Selling",
 							"Roleplay",
 							"Personality Development",
 							"Grooming",
 							"Interview Preparation classes (5 hour workshop)",
 						]}
 						eligibilityPoints={["Graduate with any stream", "Age <=25 years"]}
-						mode={["live online classes"]}
+						mode={["Live online classes"]}
 						duration="40 hours (45 days)"
-						cost="Rs 12800 + GST"
+						cost="Rs 15000 + GST"
+						usp="Assured Placement"
+						payment="https://pages.razorpay.com/propel"
 					/>
 					<CourseCard
 						name="Propel Pocket"
@@ -280,19 +282,21 @@ function Courses() {
 							"Pharmacology",
 							"Diseases",
 							"Therapies",
-							"Secret of Phone Selling",
+							"Secret of  Pharma Selling",
 						]}
 						eligibilityPoints={["Graduate with any stream", "No age bar"]}
-						mode={["pre-recorded classes + ", "live online classes on demand for clearing doubts"]}
+						mode={[" 70% pre-recorded classes + ", "30% live online classes."]}
 						duration="29 hours of pre-recorded classes"
 						cost="Rs 4900 + GST"
+						usp="Placement Assistence (9 out of 10 get job offer)"
+						payment="https://rzp.io/l/propelpocket"
 					/>
 
 					<CourseCard
 						name="Propel XL"
 						src={PropelXL}
 						curriculumPoints={[
-							"Spoken English (live classes of 40 hours)",
+							"Spoken English  ",
 							"Effective Communication",
 							"Basics of Pharma Selling",
 							"MR Role and Responsibilities",
@@ -301,7 +305,7 @@ function Courses() {
 							"Pharmacology",
 							"Diseases",
 							"Therapies",
-							"Secret of Phone Selling",
+							"Secret of  Pharma Selling",
 							"Roleplay",
 							"Personality Development",
 							"Grooming",
@@ -310,9 +314,11 @@ function Courses() {
 							"Killer first Impression",
 						]}
 						eligibilityPoints={["Graduate with any stream", "Age <=25 years"]}
-						mode={["live online classes"]}
+						mode={["Live online classes"]}
 						duration="80 hours (90 days)"
 						cost="Rs 20,400 + GST"
+						usp="Assured Placement"
+						payment="https://pages.razorpay.com/propelxl"
 					/>
 				</div>
 				<div className="container">
